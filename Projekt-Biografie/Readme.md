@@ -13,7 +13,7 @@ Im Mittelpunkt steht die klare Strukturierung von Text und Bildern.
 - Responsives Grundlayout (Seite passt sich der Fenstergröße an)
 
 ## Vorschau
-![Screenshot]()
+![Screenshot](Bilder/screenshot.png)
 
 ## Nutzung
 Die Webseite kann durch Öffnen der Datei `index.html` im Browser angezeigt werden.

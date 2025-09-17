@@ -6,6 +6,7 @@ Im Mittelpunkt steht die klare Strukturierung von Text und Bildern.
 ## Technologien
 - HTML5
 - CSS3
+- Javascript
 
 ## Features
 - Nutzung von CSS für Layout und Typografie

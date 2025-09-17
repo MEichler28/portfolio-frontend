@@ -1,192 +1,91 @@
 <html>
-	<header>
-		<title>Pacifica</title>
+	<head>
+		<title>Nill</title>
+		<link rel="stylesheet" href="css/nill.css">
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
 		
-		<!--CSS Bereich-->
-			<link rel="stylesheet" href="css/pacifica.css">
-			<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
-		<!--Ende CSS-->
+		<script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/JavaScript"> function switch_container(id) {$("#container_" + id).siblings().hide();$("#container_" + id).fadeToggle('slow');$(".selected").removeClass('selected');$("#container_" + id + "_href").addClass('selected');}</script>	
 		
-		<!--JS Bereich-->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-			<script type="text/JavaScript"> function switch_container(id) {$("#container_" + id).siblings().hide();$("#container_" + id).fadeToggle('slow');$(".selected").removeClass('selected');$("#container_" + id + "_href").addClass('selected');}</script>				
-			<!-- custom scrollbar plugin -->	
-			<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-			<script src="js/jquery.mCustomScrollbar.js"></script>
-		<!--Ende JS-->
-		
-		<!--Font Bereich-->
-			<link href='http://fonts.googleapis.com/css?family=Rouge+Script|Annie+Use+Your+Telescope|Niconne|Marck+Script'  rel="stylesheet" type='text/css'>
-		<!--Ende Font-->
-	</header>
+		<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="js/jquery.mCustomScrollbar.js"></script>
+			
+			<link href='http://fonts.googleapis.com/css?family=Aclonica|Combo|Redressed|=Fondamento' rel='stylesheet' type='text/css'>
+	</head>
+	
 	<body>
 		<center>
 			<div class="content-main">
-				<div class="content-left">
+				<div class="content">
+					<br>
 					<div class="content-pic"></div>
-					<div class="content-text">
-						<div id="content-text">
-							<div id="text">
-								........Ein Seeungeheuer wird zur Lady einer gesamten Stadt........
-							</div>
-						</div>
+					
+					<div id="link-menu" class="facts">
+						<div id="middle">Una vida que comienza con el odio y la aversiÃ³n encuentra raramente aceptaciÃ³n y amor.</div>
+						<a id="container_1_href" class="selected" href="javascript:switch_container(1);"><div id="menu">Die Halbdrow</div></a>
+						<a id="container_2_href" href="javascript:switch_container(2);"><div id="menu">Die Vampiress</div></a>
+						<a id="container_3_href" href="javascript:switch_container(3);"><div id="menu">Das neue Leben</div></a>
+					
+						<div id="middle" style="margin-top: 6em;">ProfondÃ©ment dans l'obscuritÃ©, ou encore dans la lumiÃ¨re?</div>
+						<a id="container_4_href" href="javascript:switch_container(4);"><div id="menu">Der SchÃ¶pfer</div></a>
+						
 					</div>
-					<div class="content-story">
-						<div id="container_1" style="display: block;">
-							<br/><h3>Das Seeungeheuer</h3>
-							<div class="content">
+					
+					<div class="story">
+						<div id="storytitle"><h1>Nill Dhoire</h1></div>
+						
+						<div class="container">
+							<div id="container_1" style="display: block;">
 								<p>
-									Das Meer, ein Ort, der viele Wunder, aber auch unbekannte Gefahren lauern. Eine dieser unbekannten Gefahren war der Kraken, von diesen Wesen gab es mehr als die Legenden besagen. Allerdings hatten auch sie ein Königsgeschlecht. Diese unterschieden sich in Größe und Farben von den eher einfachen Kraken, deren Name wurde zu Riesenkraken und somit war die Abgrenzung für die Menschen offensichtlich.<br/><br/>
-									
-									Doch auch diese Wesen waren nicht ohne Feinde, jene versteckten such auf den Schaffen der Menschen, die stets als leichte Beute gesehen wurden. Jedoch konnte eine Übermacht von dieser naiven Beute, bewaffnet mit diesen schrecklichen Feind, selbst die mächtigste Kreatur besiegen. Viele Jahrhunderte waren die Menschen auf See, nannten sich Seeräuber, Könige der Meere und schlussendlich Piraten. Die Jagd nach den Riesenkraken fand ihr Ende, als die letzte Überlebende des bekannten königlichem Geschlechts verschwand.<br/><br/>
-									
-									Ob noch andere Riesenkraken existieren oder sie wirklich die einzige Überlebende ist, kann sie nicht sagen, selbst die normalen Kraken können es nicht. Hass und Wut setzten sich in dem animalischen Herzen fest, das Meer spiegelt diese Emotionen wider, indem es unruhig und gefährlicher denn je wurde. Inmitten dieses Sturms wurde der außer Kontrolle geratene Kraken von der Meereshexe gefunden. Diese versprach dem wutentbrannten Geschöpf, das es seine Rache bekommen wird.<br/><br/>
-									
-									Ein Pakt wurde geschlossen. Der Riesenkraken bekam Fähigkeiten, welche die Meereshexe seit Jahrhunderten gesammelt hat. Somit wurde der weibliche Riesenkraken beinahe ebenso mächtig wie die Meereshexe. Nun konnte sie endlich wahrhaft Rache an den Menschen nehmen, auch wenn sie wohl was die Toten betrifft, ihnen in nichts nachstand. Und dennoch entstieg sie als eben solch ein verhasster Mensch den tosenden Wellen. Eine Zeit lang wurde die Art und Weise der Menschen beobachtet und einstudiert, bis sie selbst ein absolut perfektes Ebenbild der Menschen war. Ihr Plan war es, die Herrscherin dieser Hafenstadt zu werden und so die Menschen vom Land aus zu zerstören. Sie wurde also zur Lady von Tarô!
+									Eine Halbdrow, ein Kind einer verbotenen Lieben, von den Eltern geliebt bis jene starben um ihr Kostbarstes zu beschÃ¼tzen. Von nun an verstoÃŸen und verachtet musste sie fliehen um dem Tod zu entrinnen den selbst die Elben einem kleinen Mischling antun wÃ¼rden. Mit den Namen Nill den sie gezwungen wurde seit diesem Moment zu tragen, ist sie gebranntmarkt fÃ¼r immer verachtet und verstoÃŸen zu sein. Niemals sollte sie in den Augen ihrer Arten Akzeptanz finden. Denn sobald man die Bedeutung des Namens herausgefunden hat, wurde einem auch die Herkunft des MÃ¤dchens genannt. Oft waren neben Verachtung auch Spott und Hohn ihre Begleiter, sobald es auch nur eine Person gab die ihren Namen Ã¼bersetzen konnte. Doch niemand konnte es schaffen das die Halbdrow immer nur das schlechteste in den Wesen sieht. Sie war stets freundlich, wenn auch schÃ¼chtern, aber auch naiv genug jedem zu vertrauen. Somit sorgte sie meist selbst dafÃ¼r das sie jenes Vertrauen und ihre Freundlichkeit mit FÃ¼ÃŸen getreten wurde,  bis sie weinend und verzweifelt erneut die Flucht ergriff. Doch all das sollte wohl das harmloseste sein, denn die schrecklichste Erinnerung fÃ¼r sie war die Zeit in einem Dorf voller Menschen. Zu Beginn war sie herzlich willkommen und jeder war freundlich und behutsam zu ihr. Bis sie bemerkte das dies alles nur ein Spiel war und von dem Moment begann eine grauenvolle Zeit, eine Zeit der sie nur schwer wieder entfliehen konnte.
 								</p>
 							</div>
-						</div>
-						
-						<div id="container_2" style="display: none;">
-							<br/><h3>Die Stadt Tarô</h3>
-							<div class="content mCustomScrollbar">
+							
+							<div id="container_2" style="display: none;">
 								<p>
-									In der Beobachtung und dem lernen, wie sich die Menschen bewegten, handelten und kleideten, entging ihr etwas wahrlich Wichtiges. Als sie es endlich bemerkte, war ihre Überraschung so groß, dass sie sogar begann, an ihrem Plan zu zweifeln. Es gab nicht mehr nur diese einfachen naiven Menschen, jene, die leichte Beute waren. All das, was sie hier sieht, waren auch Wesen mit übernatürlichen Fähigkeiten. <br/><br/>
-
-
-									Das löste einige der Fragen, die sie in sich trug. Zum einen, woher die Meereshexe all die Fähigkeiten hatte, die sie auf die letzte Überlebende übertrug. Und zum anderen konnte sie sich nun auch leichter erklären, wieso diese einst so naive Beute ihre Familie töten konnte. Noch immer mit den Kraken des Meeres verbunden, gab sie nun die Warnung, das die menschlichwirkenden Seefahrer nicht mehr zu unterschätzen waren. Ihre Rachegelüste jedoch wurden so nicht gemindert. <br/><br/>
-
-
-									Also wird ihr Plan weiterhin aufrecht erhalten. Nachdem sie nicht mehr auffiel unter all diesen Wesen, nahm sie einen Namen an. Den Namen ihres Lieblingsortes als Krake. Pacifica. So stellte sie sich den Bewohnern der Stadt vor. Ihr Ziel war es, den momentan herrschenden Lord zu Fall zu bringen und dessen Stellung zu übernehmen. So konnte sie von innen heraus alles zerstören. <br/><br/>
-
-
-									Es dauerte erneut eine für sie unendliche Zeit, bis sie zur Tat schreiten konnte, doch als es endlich so weit war, hatte sie den perfekten Plan. Der Lord war zu sehr auf seine Bedürfnisse fixiert, etwas, das sie bei einigen der landlebenden Wesen schon oft beobachtet hatte. Also sorgte sie dafür immer näher an ihn heran zu kommt. Irgendwann hatte sie seine Aufmerksamkeit und nun nahm Ihr Plan seine wunderschöne graziöse Form an. <br/><br/>
-
-
-									Nicht lange und er ernannte sie offiziell zu seiner Lady. Nun musste er nur noch aus dem Weg geräumt werden. Als er endlich auf ihre Worte einging und sich seit langen mal wieder auf sein Schiff begibt, folgte sie ihm jedoch nicht sichtbar, sondern am Meeresgrund seit langem Mal wieder mit mehr als zwei Beinen. Ein Sturm und acht lange Fangarme brachten das Schiff auf den Meeresgrund mitsamt der Mannschaft. <br/><br/>
-
-
-									Tarô hatte eine neue, allein herrschende Lady und diese hat nicht vor den Menschen, die sich Piraten nennen, wohl gesonnen zu sein. Ob dies allerdings so bleibt, ist fraglich. Denn innerlich hatte sie begonnen, gefallen, an manchen Dingen am Land zu finden.
+									Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.  Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic qua
+								</p>								
+							</div>
+							
+							<div id="container_3" style="display: none;">
+								<p>
+									Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.  Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic qua
+								</p>	
+							</div>
+							
+							<div id="container_4" style="display: none;">
+								<h2>Sinistrum Saitan</h2>
+								<p>
+									Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.
 								</p>
 							</div>
-						</div>
-						
-						<div id="container_3" style="display: none;">
-							<br/><h3>X</h3>
-							<div class="content mCustomScrollbar">
+							
+							<div id="container_5" style="display: none;">
 								<p>
-									Wird durch RP geschrieben. :)
+									Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.
 								</p>
 							</div>
-						</div>
-						
-						<div id="container_4" style="display: none;">
-							<br/><h3>X</h3>
-							<div class="content mCustomScrollbar">
+							
+							<div id="container_6" style="display: none;">
 								<p>
-									Wird durch RP geschrieben. :)
+									Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.
 								</p>
 							</div>
-						</div>
-						
-						<div id="container_5" style="display: none;">
-							<br/><h3>X</h3>
-							<div class="content mCustomScrollbar">
+							
+							<div id="container_7" style="display: none;">
 								<p>
-									Wird durch RP geschrieben. :)
-								</p>
-							</div>
-						</div>
-						
-						<div id="container_6" style="display: none;">
-							<br/><h3>Gesucht</h3>
-							<div class="content mCustomScrollbar">
-								<p>
-									Plotgesuche:<br/>
-									
-								</p>
-							</div>
-						</div>
-						
-						<div id="container_7" style="display: none;">
-							<br/><h3>Gefunden</h3>
-							<div class="content mCustomScrollbar">
-								<p>
-									Plots:<br/>
-									
-								</p>
-							</div>
-						</div>
-						
-						<div id="container_8" style="display: none;">
-							<br/><h3>Out of Character</h3>
-							<div class="content mCustomScrollbar">
-								<p>
-									Darstellerin: Theresa Fractale<br/>
-									Bildbearbeitung: Selfmade<br/>
-									Krake-Bild: Darling - vielen lieben Dank! <3<br/>
-									Biographie - Design: Selfmade<br/>
-									Charakteridee: Selfmade (mit Inspiration von Izumi!<3)<br/>
-									Text: Selfmade<br/>
+									Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.
 								</p>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="content-right">
-					<div id="content-right">
-						<h3>Story</h3>
-						<div id="link-menu" class="content-menue">
-							<br/>
-							<a id="container_1_href" class="selected" href="javascript:switch_container(1);">
-								<div class="menue">
-									<div id="menue">Das Seeungeheuer</div>
-								</div>
-							</a>
-							<a id="container_2_href" href="javascript:switch_container(2);">
-								<div class="menue">
-									<div id="menue">Die Stadt Tarô</div>
-								</div>
-							</a>
-							<a id="container_3_href" href="javascript:switch_container(3);">
-								<div class="menue">
-									<div id="menue">...Folgt...</div>
-								</div>
-							</a>
-							<a id="container_4_href" href="javascript:switch_container(4);">
-								<div class="menue">
-									<div id="menue">...Folgt...</div>
-								</div>
-								
-							<a id="container_5_href" href="javascript:switch_container(5);">
-								<div class="menue">
-									<div id="menue">...Folgt...</div>
-								</div>
-							</a>
-						</div>
-						<div class="menue-pic"></div>
-						<h3 style="margin-top: 2em;">Out Of</h3>
-						<div id="content-menue">
-							<br/>
-							<a id="container_6_href" href="javascript:switch_container(6);">
-								<div class="menue">
-									<div id="menue">Gesucht</div>
-								</div>
-							</a>
-							
-							<a id="container_7_href" href="javascript:switch_container(7);">
-								<div class="menue">
-									<div id="menue">Gefunden</div>
-								</div>
-							</a>
-							
-							<a id="container_8_href" href="javascript:switch_container(8);">
-								<div class="menue">
-									<div id="menue">Out of Character</div>
-								</div>
-							</a>
-						</div>
+					
+					<div id="link-menu" class="menu">					
+						<div id="middle">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.</div>
+						<a id="container_5_href" href="javascript:switch_container(5);"><div id="menu">Unbekannt</div></a>
+						<a id="container_6_href" href="javascript:switch_container(6);"><div id="menu">Unbekannt</div></a>
+						<a id="container_7_href" href="javascript:switch_container(7);"><div id="menu">Unbekannt</div></a>
+					
 					</div>
 				</div>
 			</div>

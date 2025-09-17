@@ -1,0 +1,153 @@
+body {
+	background-color: #090808;
+}
+
+a { 
+	background-color: transparent; 
+	color: #479346; 
+	text-decoration: none;
+}
+
+h1 {
+	font-family: Aclonica; 
+	color: #479346; 
+	letter-spacing: -2px; 
+	font-style: oblique; 
+	font-weight: lighter; 
+	padding-top: 3px;
+}
+
+h2 {
+	float: right; 
+	font-family: Aclonica; 
+	color: #479346; 
+	letter-spacing: -2px; 
+	font-style: oblique; 
+	font-weight: lighter;
+	margin-left: 1em; 
+	margin-right: 1em;
+}
+
+p {
+	font-family: 'Candara', cursive;  
+	font-size: 12px; 
+	text-align: justify; 
+	color: #479346; 
+	padding: 10px;
+}
+
+.content-main {
+	width: 1000px; 
+	height: 1200p; 
+	background: rgba(104, 117, 126, .3);
+}
+
+.content {
+	width: 950px; 
+	height: 1100px;
+}
+
+.content-pic {
+	background-image: url('../Bilder/Content.png'); 
+	width: 950px; 
+	height: 525px;
+}
+
+.facts {
+	float: left; 
+	width: 210px; 
+	height: 500px; 
+	background: rgba(74, 93, 49, .7); 
+	margin-top: 2em;
+}
+
+#overtitle {
+	font-family: Redressed; 
+	font-size: 22px; 
+	color: #479346; 
+	font-style: oblique; 
+	font-weight: lighter; 
+	text-decoration:underline; 
+	padding-bottom: 10px;
+}
+
+.point {
+	font-family: 'Fondamento', cursive; 
+	color: #479346; 
+	text-align: justify; 
+	font-size: 12px; 
+	text-transform: uppercase; 
+	padding-left: 8px; 
+	padding-bottom: 2px;
+}
+
+#point{
+	width: 200px; 
+	color: #479346; 
+	text-align: justify; 
+	font-size: 12px; 
+	font-weight: lighter; 
+	margin-top: -1.5em; 
+	margin-left: 10em;
+}
+
+#points{
+	width: 170px; 
+	color: #479346; 
+	text-align: justify; 
+	font-size: 12px; 
+	font-weight: lighter; 
+	margin-left: 1.5em;
+}
+
+.story {
+	float: left; 
+	width: 500px; 
+	height: 500px; 
+	background: rgba(74, 93, 49, .5); 
+	margin-left: 1em; 
+	margin-top: 2em;
+}
+
+#storytitle {
+	width: 490px; 
+	height: 40px; 
+	background: rgba(74, 93, 49, .7); 
+	margin-top: -0.9em;
+}
+
+.container {
+	width: 490px; 
+	height: 400px; 
+	margin-top: 1em;
+}
+
+.menu {
+	float: right; 
+	width: 210px; 
+	height: 500px; 
+	background: rgba(74, 93, 49, .7); 
+	margin-top: 2em;
+}
+
+#menu {
+	width: 190px; 
+	height: 25px; 
+	font-family: Redressed; 
+	font-size: 18px; 
+	background: rgba(39, 38, 38, .7); 
+	color: #479346; 
+	border: 3px outset #2F2222;  
+	outline:0; 
+	margin-top: 1em;
+}
+
+.selected > #menu {
+    background: rgba(46, 58, 46, .5);
+  }
+
+#middle {
+	font-family: 'Combo', cursive; 
+	font-size: 16px; 
+	color: #479346;
+}

@@ -1,190 +1,132 @@
-
 <html>
-	<head>
-		<title>Flaevynn</title>
+	<header>
+		<title>Guinevere</title>
 		
-		<link rel="stylesheet" href="css/flae.css">
-		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+		<!--CSS Bereich-->
+			<link rel="stylesheet" href="css/Rue.css">
+			<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+		<!---css style Ende-->		
 		
-		
-		<!-- Google CDN jQuery with fallback to local -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script type="text/Javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-		<script type="text/JavaScript">
-    function switch_container(id) {
-	  $("#container_" + id).siblings().hide();
-      $("#container_" + id).fadeToggle('slow');
-      $(".selected").removeClass('selected');
-      $("#container_" + id + "_href").addClass('selected');
-    }
-  </script>	
-		
-		<!-- custom scrollbar plugin -->
-		<script src="js/Flaevynn.js"></script>
-		<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-		<script src="js/jquery.mCustomScrollbar.js"></script>
-	</head>
-	
+		<!--Java Bereich-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+			<script type="text/JavaScript"> function switch_container(id) {$("#container_" + id).siblings().hide();$("#container_" + id).fadeToggle('slow');$(".selected").removeClass('selected');$("#container_" + id + "_href").addClass('selected');}</script>				
+			<!-- custom scrollbar plugin -->	
+			<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+			<script src="js/jquery.mCustomScrollbar.js"></script>
+			
+			
+		<link href='http://fonts.googleapis.com/css?family=Dancing+Script|Sofia|MedievalSharp'  rel="stylesheet" type='text/css'>
+	</header>
 	<body>
 		<center>
 			<div class="content-main">
-				<div class="content-over">
-					<div id="content-menue">
-						<div id="link-menu"  class="content-menue">
-							<a id="container_1_href" class="selected" href="javascript:switch_container(1);"><div class="menue"><p>Kindheit</p></div></a>
-							<a id="container_2_href" href="javascript:switch_container(2);"><div id="menue"><p>Magie erwachen</p></div></a>
-							<a id="container_3_href" href="javascript:switch_container(3);"><div class="menue"><p>Die "Giftnatter"</p></div></a>
-							<a id="container_4_href" href="javascript:switch_container(4);"><div id="menue"><p>Unknow</p></div></a>
-							<a id="container_5_href" href="javascript:switch_container(5);"><div class="menue"><p>Freunde & Co</p></div></a>
-						</div>
-					</div>
-					<div class="content-pic"></div>
-					<div id="main-content" id="content-4" class="content-personal">
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									<br/><br/>
-							Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-									<br/><br/>
-							Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-									<br/><br/>
-							Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
-						</p>
+				<div class="content-pic">
+					<div class="content-menue">
+						<table id="link-menu">
+							<tr>
+								<td>
+									<a id="container_1_href" class="selected" href="javascript:switch_container(1);"><div id="main-menue"><div id="menue">Die Drákon</div></div></a>
+								</td>
+								<td>
+									<a id="container_2_href" href="javascript:switch_container(2);"><div id="main-menue"><div id="menue">Wandlungen</div></div></a>
+								</td>
+								<td>
+									<a id="container_3_href" href="javascript:switch_container(3);"><div id="main-menue"><div id="menue">Weltenwandern</div></div></a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a id="container_4_href" href="javascript:switch_container(4);"><div id="main-menue"><div id="menue">Menue 04</div></div></a>
+								</td>
+								<td>
+									<a id="container_5_href" href="javascript:switch_container(5);"><div id="main-menue"><div id="menue">Menue 05</div></div></a>
+								</td>
+								<td>
+									<a id="container_6_href" href="javascript:switch_container(6);"><div id="main-menue"><div id="menue">Menue 06</div></div></a>
+								</td>
+							</tr>
+						</table>
 					</div>
 				</div>
-				<div class="content-under">
-					<div id="content-7" class="content-script">
-						<div id="container_1" style="display: block;">
-						<!--Vor Hogwarts-->
-							<h2>Kindheit</h2>
+				<div class="content-main-story">
+					<div class="content-story-left">
+						<div class="content-left"></div>
+					</div>
+					<div class="content-story-middle">
+						<div class="content-middle">
+							<!---top of containter--->
+								<div id="container_1" style="display: block;">
+									<div class="content mCustomScrollbar">
+										<p>
+											Die Drákons sind ein Uraltesvolk, beinahe älter als die Menschen. Ihr größtes Problem ist die Verwechslung mit den einfachen Drachen, denn mit jenen haben sie nichts gemeinsam, außer vielleicht die Drachengestalt. Die Drákons haben einst Krieg gegen die Menschen geführt, weil diese jene schon immer ebenso ausrotten wollten wie die einfachen Drachen, doch das war Ihnen nie geglückt. Jeder Drákon kann recht alt werden, der älteste Drákon ist über 1000 Jahre geworden, doch bei ihm war der Wahnsinn schon recht nahe. 
+												<br/><br/>
+											Es gibt in jedem Lande einen Fürsten der Drákons denen jeder unterschied, früher durfte kein Drákon das Dorf verlassen in denen sie lebten, doch mittlerweile hat es sich verändert und mit einigen Regeln dürfen sie sich nun auch in Städten aufhalten. 
+												<br/><br/>
+											Die Regeln bestehen darin das kein Drákon das gesamte Volk in Gefahr bringen darf, niemals dürfen die Schwächen offenbart werden und kein Drákon darf andere Wesen ohne gut begründeten Grund angreifen. 
+												<br/><br/>
+											Wer gegen diese Regeln verstößt wird mit dem Tode bestraft.
+										</p>
+									</div>
+								</div>
+							<!---end of container--->
 							
-							<div class="icon"></div>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									<br/><br/>
-								Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-									<br/><br/>
-								Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-									<br/><br/>
-								Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
-									<br/><br/>
-								Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.
-									<br/><br/>
-								Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. 
-							</p>
-						</div>
-						<div id="container_2" style="display: none;">
-						<!--Neue Geschichte-->
-							<h2>Das Erwachen der Magie</h2>
+							<!---top of containter--->
+								<div id="container_2" style="display: none;">
+									<div class="content">
+										<p>
+											Ein Drákon hat drei Formen die er an nehmen kann. Größtenteils sind sie in der Menschenform anzutreffen, denn in jener können sie ungefährdet leben und vor allem auch für Nachfahren sorgen. Die erste Wandlungsstufe erfolgt als Rauch, in dieser Form können sie durch jegliche Löcher und Ritze in Gebäude und Zimmer eindringen, sie können in der Luft von dannen schweben, beinahe sogar gelenkt fliegen. Niemand kann sie in dieser Form einfangen. Sobald sie sich in Rauch verwandeln, verlieren sie alles was sie am Leibe getragen haben, nichts kann in diese Form mitgenommen werden. Erst nachdem sie diese Form inne hatte, können sie sich in einen Drachen verwandeln. Die Drachenform ist vollkommen unterschiedlich, dem Herzen und der Persönlichkeit des jeweiligen Drákons angepasst. Und bevor sie sich wieder in einen Menschen verwandeln, müssen sie auch hier vorerst die Rauchform annehmen.
+										</p>
+									</div>
+								</div>
+							<!---end of container--->
 							
-								<font class="subheadline">Vom geliebten Kind, zum Hassobjekt</font>
-								
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									<br/><br/>
-								Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-									<br/><br/>
-								Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-									<br/><br/>
-								Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
-									<br/><br/>
-								Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.
-									<br/><br/>
-								Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. 
-							</p>
-						</div>
-						<div id="container_3" style="display: none;">
-						<!--Mittem im Chaos-->
-							<h2>Die "Giftnatter"</h2>
+							<!---top of containter--->
+								<div id="container_3" style="display: none;">
+									<div class="content">
+										<p>
+											Weltenwandern
+										</p>
+									</div>
+								</div>
+							<!---end of container--->
 							
-								<font class="subheadline"><br />Wer kann entscheiden wer etwas wert ist und wer nicht?</font>
-								
-							<p>
-								<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									<br/><br/>
-								Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-									<br/><br/>
-								Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-									<br/><br/>
-								Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
-									<br/><br/>
-								Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.
-									<br/><br/>
-								Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. 
-							</p>
-							</p>
+							<!---top of containter--->
+								<div id="container_4" style="display: none;">
+									<div class="content">
+										<p>
+											Menü 4
+										</p>
+									</div>
+								</div>
+							<!---end of container--->
+							
+							<!---top of containter--->
+								<div id="container_5" style="display: none;">
+									<div class="content">
+										<p>
+											Menü 5
+										</p>
+									</div>
+								</div>
+							<!---end of container--->
+							
+							<!---top of containter--->
+								<div id="container_6" style="display: none;">
+									<div class="content">
+										<p>
+											Menü 6
+										</p>
+									</div>
+								</div>
+							<!---end of container--->
 						</div>
-						<!--<div id="container_4" style="display: none;">-->
-						<!--Nach Hogwarts-->
-							<!--<h2>Nach Hogwarts</h2>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-									<br/><br/>
-								Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-									<br/><br/>
-								Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-									<br/><br/>
-								Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
-									<br/><br/>
-								Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.
-									<br/><br/>
-								Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. 
-							</p>
-						</div>-->
-						<div id="container_5" style="display: none;">
-						<!--Freunde & Co-->
-							<h2>Freunde & Co</h2>
-								<p id="h1"><span class="activater" id="1">Unknow</span></p>
-								
-								<div class="darkener">
-								<span class="text_container" id="1">
-									<p>
-										
-									</p>
-								</span>
-								
-								<span class="text_container" id="2">
-									
-								</span>
-								
-								<span class="text_container" id="3">
-									
-								</span>
-							</div>
-						</div>
+					</div>
+					<div class="content-story-right">
+						<div class="content-right"></div>
 					</div>
 				</div>
 			</div>
 		</center>
-		<script>
-		(function($){
-			$(window).load(function(){
-				
-				$("#content-4").mCustomScrollbar({
-					theme:"rounded-dots",
-					scrollInertia:400
-				});
-				
-				$("#content-7").mCustomScrollbar({
-					scrollButtons:{enable:true},
-					theme:"3d-thick"
-				});
-				
-			});
-		})(jQuery);
-	</script>
 	</body>
-	<footer>
-		 
-		 <div style="opacity: 0;">
-			`^C`?h`~a`â€šr`Ãªl`ÃŠe`Wn`Ue K`Wi`ÃŠn`Ãªg`â€šs`~t`?e`^n`0
-		</div>
-		<div style="opacity: 0;">
-			<span style='color: #ff8000;'>C</span><span style='color: #d0997e;'>h</span><span style='color: #d4a58a;'>a</span><span style='color: #e6fed7;'>r</span><span style='color: #b9dda7;'>l</span><span style='color: #91ba80;'>e</span><span style='color: #669156;'>n</span><span style='color: #4a763b;'>e K</span><span style='color: #669156;'>i</span><span style='color: #91ba80;'>n</span><span style='color: #b9dda7;'>g</span><span style='color: #e6fed7;'>s</span><span style='color: #d4a58a;'>t</span><span style='color: #d0997e;'>e</span><span style='color: #ff8000;'>n</span>
-				<br/><br/>
-			<script src="http://www.123zaehler.de/counter/count.php?UserId=1452450&amp;CId=11" type="text/javascript" language="javascript"><noscript><a href="http://www.123zaehler.de" target="_blank">Kostenloser Counter</a></noscript></script>	
-				<br/><br/>
-			<a href="http://www.andyhoppe.com/" title="Besucherzaehler"><img src="http://c.andyhoppe.com/1414258464" style="border:none" alt="Besucherzaehler" /></a>
-			</div>
-	</footer>
 </html>

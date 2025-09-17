@@ -1,0 +1,175 @@
+body {
+	background-color: #203321;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content-main {
+	width: 1318px;
+	height: 980px;
+	background-color: #3d4747;
+	border-radius: 20px;
+}
+
+.content-left {
+	float: left;
+	width: 1000px;
+	height: 800px;
+	margin-top: -0.5em;
+}
+
+.content-pic {
+	width: 950px;
+	height: 400px;
+	background-image: url('../Bilder/Content.png');
+	background-color: #203321;
+	border-radius: 20px 20px 20px 20px;
+	margin-top: 2em;
+}
+
+.content-text {
+	width: 950px;
+	height: 40px;
+	background-color: #203321;
+	margin-top: -1em;
+}
+
+#content-text {
+	width: 880px;
+	height: 40px;
+	background-color: #3d4747;
+	border-radius: 0 20px 20px 0;
+	margin-left: -4.3em;
+}
+
+#text {
+	color: #5f6074;
+	font-size: 25px;
+	font-family: Annie Use Your Telescope;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.content-story {
+	width: 950px;
+	height: 500px;
+	background-color: #203321;
+	margin-top: 0em;
+}
+
+.content-story h3 {
+	color: #565a69;
+	font-size: 40px;
+	font-family: Rouge Script;
+	font-weight: bold;
+	margin-top: -0.2em;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.content {
+	overflow: auto;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	width: 850px;
+	max-width: 100%;
+	height: 490px;
+	max-height: 75%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-top: -2.4em;
+}
+.content.hidden{ display: none; }
+
+.content p {
+	color: #565a69;
+	text-align: justify;
+}
+
+.contents {
+	overflow: auto;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	width: 850px;
+	max-width: 100%;
+	height: 450px;
+	max-height: 85%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-top: -2.4em;
+}	
+
+.contents.hidden{ display: none; }
+
+.contents p {
+	color: #565a69;
+	text-align: justify;
+}
+
+.content-right {
+	float: right;
+	width: 318px;
+	height: 800px;
+	margin-top: 1em;
+}
+
+#content-right h3 {
+	color: #203321;
+	font-size: 30px;
+	font-family: Niconne;
+	font-weight: bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.content-menue {
+	width: 318px;
+	height: 250px;
+	border-top: 2px dashed #203321;
+	border-bottom: 2px dashed #203321;
+	margin-left: -2em;
+	margin-top: -1em;
+}
+
+.menue-pic {
+	width: 300px; 
+	height: 200px;
+	background-image: url('../Bilder/Menue-Pic.png');
+	border-bottom: 2px dashed #203321;
+	border-radius: 100%;
+	margin-top: 5em;
+	margin-left: -1.5em;
+}
+
+#content-menue {
+	width: 318px;
+	height: 170px;
+	border-top: 2px dashed #203321;
+	border-bottom: 2px dashed #203321;
+	margin-left: -2em;
+	margin-top: -1em;
+}
+
+.menue {
+	width: 250px;
+	height: 30px;
+	border: 1px dashed #203321;
+	margin-top: 0.5em;
+}
+
+#menue {
+	color: #203321;
+	font-size: 23px;
+	font-family: Marck Script;
+	font-weight: bold;
+	text-align: center;
+	padding: 5px;
+}
+
+.selected > .menue {
+    background: rgba(255, 255, 255, .2);
+  }

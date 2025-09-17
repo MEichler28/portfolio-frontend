@@ -1,0 +1,194 @@
+body {
+	background-color: #333333; 
+	color: #feecd1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content-main {
+	width: 1192px;
+	height: 680px;
+}
+
+.content-pic {
+	width: 1192px;
+	height: 670px;
+	background-image: url('../Bilder/Content-Picture.png');
+	/*background-image: url('file:///H:/LOGD/Biograpfien/Aktuelle%20Charaktere/Pantheon/Aktuelle%20Charaktere/Mittelalter/Melithraya/Aktuell/szablon_88_by_madwoman98_d73jt6b-pre.jpg');*/
+}
+
+#content-main {
+	width: 1192px;
+	height: 680px;
+}
+
+.content-menue {
+	float: left;
+	width: 183px;
+	height: 397px;
+	margin-left: 34.95em;
+	margin-top: 14.5em;
+}
+
+.content-menues {
+	width: 170px;
+	height: 390px;
+	background-color: #725560;
+	border: 3px solid #333333;
+	border-radius: 75px 0 0 0;
+}
+
+.menue {
+	width: 150px;
+	height: 25px;
+	background-color: #a68a95;
+}
+
+.menue p {
+	color: #7d4b4b;
+	font-size: 15px;
+	font-family: Annie Use Your Telescope;
+}
+
+.selected > .menue {
+    background: rgba(255, 255, 255, .5);
+  }
+
+.zitat {
+	width: 150px;
+	height: 50px;
+	margin-top: 4em;
+}
+
+.zitat p {
+	color: #dadae7;
+	font-family: 'Indie Flower', cursive;
+	font-size: 12px;
+}
+
+.fairy {
+	width: 170px;
+	height: 86px;
+	background-image: url('../Bilder/Fairy.png');
+	margin-top: 3em;
+}
+
+.content-story {
+	float: right;
+	width: 380px;
+	height: 635px;
+	background-color: #725560;
+	border: 3px solid #333333;
+	margin-right: 1.75em;
+	margin-top: 1.5em;
+}
+
+.content {
+	width: 370px;
+	height: 540px;
+	margin-top: 1.5em;
+}
+
+.content.hidden{ display: none; }
+
+.content p {
+	text-align: justify;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Lekton;
+	color: #dadae7;
+}
+
+.script-content {
+	width: 350px;
+	height: 635px;
+	margin-right: 0.8em;
+}
+
+.script-content  h3 {
+	color: #dadae7;
+	font-family:'Marck Script', cursive;
+	font-size: 28px;
+	 background-image:linear-gradient(90deg,#615d5d,#a1838f,#e7d5db,#a1838f,#615d5d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.script-content  p {
+	text-align: justify;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Lekton;
+	color: #dadae7;
+}
+
+.prophecy1 {
+	font-size: 12px; 
+	text-align: center; 
+	color: #dadae7;
+}
+.author {
+	font-size: 9px; 
+	color: #9e9898; 
+	padding-right: 25px; 
+	text-align: right; 
+	padding-top: 5px; 
+	padding-bottom: 5px;
+}
+
+.mini {
+	text-align: justify;
+	color: #dadae7; 
+	font-family:'Candara', fantasy; 
+	font-size: 13px; 
+	font-weight: lighter; 
+	padding: 8px;
+}
+
+.headliner1 {
+	font-size:12px; 
+	text-align: justify; 
+	font-family:'Candara'; 
+	text-decoration: underline; 
+	font-weight: lighter; 
+	text-shadow:gainsboro 3px 2px 8px; 
+	padding-top: 8px;
+}
+
+.facts {
+	text-align: right; 
+	color: #dadae7; 
+	font-family:'Candara', fantasy; 
+	font-size: 13px; 
+	font-weight: lighter; 
+	padding: 8px;
+}
+
+.headliner2 {
+	font-size:12px; 
+	text-align: right; 
+	font-family:'Candara'; 
+	text-decoration: underline; 
+	font-weight: lighter; 
+	text-shadow:gainsboro 3px 2px 8px; 
+	padding-top: 8px;
+}
+
+.underpoint {
+	text-align: justify; 
+	color: #dadae7; 
+	font-family:'Candara', fantasy; 
+	font-size: 10px; 
+	font-weight: lighter; 
+	margin-top: -26px;
+}
+
+.underpoint1 {
+	text-align: right; 
+	color: #dadae7; 
+	font-family:'Candara', fantasy; 
+	font-size: 10px; 
+	font-weight: lighter; 
+	margin-top: -26px;
+}

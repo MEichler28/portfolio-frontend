@@ -1,4 +1,4 @@
-# Biografie-Webseite – Person E
+# Biografie-Webseite – Person G
 
 Dieses Projekt zeigt eine einfache Biografie-Webseite, die mit **HTML**, **CSS** und **Javascript** umgesetzt wurde.  
 Im Mittelpunkt steht die klare Strukturierung von Text und Bildern.

@@ -1,0 +1,153 @@
+body {
+	background-color: #64555A; 
+	color: #fdd9d9;
+	/*font-variant: small-caps;*/
+	text-transform: capitalize;
+	letter-spacing: -1px;
+}
+
+a::first-letter {
+	font-weight: bold;
+}
+	
+fieldset {
+	background-color: transparent; 
+	color: #fdd9d9;
+}
+	
+a {
+	background-color: transparent; 
+	color: #fdd9d9; 
+	text-decoration: none;
+}
+	
+h1 {
+	font-size: 20px;
+}
+
+h2{
+	font-family: Armata;
+	color: #473A3F;
+	font-size: 19px;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 1em;
+}
+h3 {
+	font-family: Armata;
+	color: #473A3F;
+	font-size: 17px;
+	padding-left: 5px;
+	margin-top: 0.5em;
+}
+
+h4 {
+	font-family: Armata;
+	color: #64595D;
+	font-size: 12px;
+	text-align: right;
+	padding-right: 20px;
+	margin-top: -1.5em;
+	margin-bottom: -0.3em;
+}
+
+.content-main {
+	width: 1200px; 
+	height: 681px; 
+	background-color: #4F3E44;
+}
+	
+#content-pic {
+	float: left; 
+	width: 490px; 
+	height: 681px; 
+	background-image: url('../Bilder/Content-Pic.png');
+}
+	
+.content-pic-lines {
+	width: 150px; 
+	height: 20px; 
+	background-color: #6d5d63; 
+	margin-top: 4em; 
+	margin-left: 19.3em;
+}
+
+.content-pic-lines p {
+	color: #fdd9d9;
+	font-variant: normal;
+	text-transform: none;
+	letter-spacing: normal;
+}	
+	
+#content-second {
+	float: left;
+	width: 490px; 
+	height: 666px; 
+	background: rgba(139,124,129, .5); 
+	border-top: 2px solid #FAE3E3; 
+	border-radius: 40px 0 0 0; 
+	margin-top: 0.8em; 
+	margin-left: -1em;
+}
+	
+.content-second {
+	width: 464px; 
+	height: 615px; 
+	background-color: #FAE3E3;
+}
+	
+#content-second-script {
+	width: 470px;
+	height: 610px;
+}
+
+#script {
+	color: #64555A;
+	font-size: 10px;
+	text-align: justify;
+	width: 90%;
+	padding-left: 5px;
+	text-transform: none;
+	letter-spacing: 0px;
+}
+	
+#content-site {
+	float: right; 
+	width: 230px; 
+	height: 666px; 
+	margin-top: 0.8em;
+}
+
+.content-site-box {
+	width: 200px; 
+	height: auto; 
+	background-color: #6d5d63; 
+	border-top: 1px solid #FAE3E3; 
+	border-bottom: 1px solid #FAE3E3; 
+	border-radius: 20px 0 20px 0; 
+	margin-bottom: 0.8em;
+}
+
+.content-site-box p  {
+	font-size: 14px;
+	text-align: justify;
+	color: #fdd9d9;
+	padding: 5px;
+	font-variant: normal;
+	text-transform: none;
+	letter-spacing: normal;
+}
+
+/*.content{
+	overflow: auto;
+	position: relative;
+	padding: 20px;
+	margin-top: -36em;
+	margin-left: -13em;
+	width: 740px;
+	max-width: 97%;
+	height: 400px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.content.hidden{ display: none; }*/

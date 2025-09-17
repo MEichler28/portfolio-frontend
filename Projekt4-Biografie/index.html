@@ -1,120 +1,89 @@
 <html>
-<header>
-<title>Aurora</title>
+	<head>
+		<title>Daiyu</title>
+		
+		<link rel="stylesheet" href="css/daiyu.css">
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+		<link href='https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Redressed'  rel="stylesheet" type='text/css'>
+		
+		<!--Javascript-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+			<script type="text/JavaScript"> function switch_container(id) {$("#container_" + id).siblings().hide();$("#container_" + id).fadeToggle('slow');$(".selected").removeClass('selected');$("#container_" + id + "_href").addClass('selected');}</script>	
+		
+		<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="js/jquery.mCustomScrollbar.js"></script>
+	</head>
+	<body>
+		<center>
+			<div class="content-main">
+				<div id="content-main">
+					<div class="content-pic"></div>
+					<div class="content-story">
+						<div class="content-left">
+							<div class="mini-pics">
+								<div class="mini-pic"></div>
+								<div class="border"></div>
+								<div id="mini-pic"></div>
+							</div>
+						</div>
+						<div class="content-right">
+							<div class="script mCustomScrollbar">
+								<div id="container_1" style="display: block;">
+									<p>
+										Ansonsten hätte ich eine Idee, wie sie an den Onsen kam: Vielleicht war sie einmal die höchste und schönste Kurtisane und ein edler Samurai schenkte ihr den Onsen. Kurz darauf starb er aber und sie begann das Örtchen zu bewirten. Ihre Erscheinung könnte ja weiterhin die Gäste anlocken. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+											<br/><br/>
+										Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu.
+											<br/><br/>
+										Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis
+									</p>
+								</div>
+								
+								<div id="container_2" style="display: none;">
+									<p>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+											<br/><br/>
+										Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu.
+											<br/><br/>
+										Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis
+									</p>
+								</div>
+								
+								<div id="container_3" style="display: none;">
+									<p>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+											<br/><br/>
+										Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu.
+											<br/><br/>
+										Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menue-main">
+					<div id="link-menu" class="menue">
+						<a id="container_1_href" class="selected" href="javascript:switch_container(1);">
+							<div id="main-menue">
+								<div id="menue">[insert Text]</div>
+							</div>
+						</a>
 
-<!--CSS Bereich-->
-<link rel="stylesheet" href="https://www.crow-pics.de/Mittelalter/Aurora/css/rora.css">
-<link rel="stylesheet" href="https://www.crow-pics.de/Mittelalter/Aurora/css/jquery.mCustomScrollbar.css">
-<!---css style Ende-->
+						<a id="container_2_href" href="javascript:switch_container(2);">
+							<div id="main-menue">
+								<div id="menue">Kurtisane</div>
+							</div>
+						</a>
 
-<!--Java Bereich-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
- <script type="text/JavaScript"> function switch_container(id) {$("#container_" + id).siblings().hide();$("#container_" + id).fadeToggle('slow');$(".selected").removeClass('selected');$("#container_" + id + "_href").addClass('selected');}</script>	
-<!-- custom scrollbar plugin -->
-<script src="https://www.crow-pics.de/Mittelalter/Aurora/js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="https://www.crow-pics.de/Mittelalter/Aurora/js/jquery.mCustomScrollbar.js"></script>
-
-
-<link href='https://fonts.googleapis.com/css?family=Dancing+Script|Sofia|MedievalSharp'  rel="stylesheet" type='text/css'>
-</header>
-<body>
-<center>
-<div class="content-main">
-<div class="content-pic"></div>
-<div class="content-story">
-<div class="main-story">
-<div class="story-left">
-<div class="main-menue">
-<table id="link-menu" width="120%">
-<tr>
-<td width="20%"><a id="container_1_href" class="selected" href="javascript:switch_container(1);"><div id="main-menue"><div id="menue">Einhornleben</div></div></a></td>
-<td width="20%"><a id="container_2_href" href="javascript:switch_container(2);"><div id="main-menue"><div id="menue">Menschsein</div></div></a></td>
-<td width="20%"><a id="container_3_href" href="javascript:switch_container(3);"><div id="main-menue"><div id="menue">.....</div></div></a></td>
-<td width="20%"><a id="container_4_href" href="javascript:switch_container(4);"><div id="main-menue"><div id="menue">Memorien</div></div></a></td>
-</tr>
-</table>
-</div>
-<div class="title">
-<div id="title">
-Einst Einhorn vergn�gt im Wald, nun Mensch in d�sterer Welt.
-</div>
-</div>
-<div class="story">
-<!---top of containter--->
-<div id="container_1" style="display: block;">
-<div id="content-9" class="content">
-<p>
-Die Heimat der Einh�rner hat viele verschiedene Namen. F�r wenige ist sie als verwunschener Wald bekannt, andere glauben, dieser Wald sei verborgen und wiederum andere, vermutlich gar die Mehrheit sind der festen �berzeugung dieser Wald ist eine ganz einfache und harmlose Ansammlung von B�umen. Je nachdem, welche Geschichten verbreitet wurden. Doch niemand wird wohl je wissen, wie Nahe er dem vom Zauber besch�tzen Bereich der Einhornherde gekommen war. Wie oft standen vereinzelt Einh�rner am Rande der Barriere und beobachteten die Menschen in ihrer N�he. Nur eines von ihnen jedoch war voll Neugierde und Wissbegierde, was die in ihren Augen zweibeinigen Wesen betrifft. Ein Wesen, das so voller Reinheit war, dessen Fell strahlend wei� leuchtete in der Dunkelheit, schien dennoch einen kleinen schwarzen Punkt in der Reinheit zu besitzen. Dieser schwarze unscheinbare Punkt sorgte f�r die Neugierde, die Ungehorsam gegen�ber des Leittiers, die erfahrenste Stute, mit sich brachte. Die j�ngere Einhornstute war rebellisch, wie es wohl unter den Menschen hei�en w�rde, sie langweilte sich in dem idyllischen Ort. Nicht einmal Raubtiere wurden ihnen gef�hrlich, was nicht nur an den magischen Bannkreis oder dem eben so magischen Blut lag. Irgendwie waren alle Tiere den Einh�rnern gegen�ber vorsichtig. Vielleicht nicht alle, aber jene, deren Instinkte nicht vollkommen die Handlungen bestimmten. Was also sollte ein Tier unternehmen, das sich so langweilte, so sehr das nun auch Aufm�pfigkeit entstand. Sie entfernte sich ein ums andere Mal von der Herde und erkundete die Bereiche des Waldes, die f�r sie tabu sein sollten. Doch dabei sollte es nicht bleiben, sie wollte noch mehr sehen. Es gab so vieles, was sie von den anderen Tieren h�rte. W�lder, die sich von den ihren unterschieden Tiere die andersartig waren, sogar Gesch�pfe, die sowohl Mensch als auch Tier waren. Das feuerte die Neugierde nur noch mehr bei diesem einen Einhorn an. Und auch wenn viele versuchten, sie aufzuhalten, so war es doch nicht aufzuhalten. Der Weg in die tiefen W�lder wurde gefunden, die Worte der Leitstute noch im Kopf �Das Schicksal h�lt f�r jeden einen anderen Weg bereit.� War das ihr schicksalhafter Weg? Sollte sie diesen Wald kennenlernen? Doch ob es wirklich Schicksal war oder Strafe f�r ihre Neugierde, konnte sie nicht sagen. Doch etwas sollte geschehen. Es war kein Zufall, dass sie genau in dem Moment in tiefen Wald Erkundungen machte, es war auch kein Zufall, dass ein menschliches Wesen mit unerf�llten Herzensw�nschen in diesem Wald war. Ebenso wenig zuf�llig trafen die beiden aufeinander und nur eine kleine Ber�hrung des menschlichen Mannes l�ste ihre magischen F�higkeiten aus und sie selbst wurde von einem wundersch�nen Einhorn zu einem Menschen. Einer jungen Frau, die vollkommen unwissend und unbeholfen war. Wie wird wohl nun das Leben als Mensch werden?
-</p>
-</div>
-</div>
-<!---end of container--->
-
-<!---top of containter--->
-<div id="container_2" style="display: none;">
-<div id="content-9" class="content">
-<p>
-Menschsein
-</p>
-</div>
-</div>
-<!---end of container--->
-
-<!---top of containter--->
-<div id="container_3" style="display: none;">
-<div id="content-9" class="content">
-<p>
-....
-</p>
-</div>
-</div>
-<!---end of container--->
-
-<!---top of containter--->
-<div id="container_4" style="display: none;">
-<div id="content-9" class="content">
-<p>
-Memorien
-</p>
-</div>
-</div>
-<!---end of container--->
-</div>
-</div>
-<div class="story-right">
- <div class="pic">
-<div class="pic-title">menschliches Antlitz</div>
-<div id="pic"></div>
- </div>
- 
- <div class="pics">
-<div class="pic-title">menschlicher Anker</div>
-<div id="pics"></div>
- </div>
-</div>
-</div>
-</div>
-</div>
-</center>
-</body>
-<footer>
-<script>
-(function($){
-$(window).load(function(){
-
-$("#content-9").mCustomScrollbar({
-scrollButtons:{enable:true,scrollType:"stepped"},
-keyboard:{scrollType:"stepped"},
-mouseWheel:{scrollAmount:188},
-theme:"rounded-dark",
-autoExpandScrollbar:true,
-snapAmount:188,
-snapOffset:65
-});
-
-});
-})(jQuery);
-</script>
-</footer>
+						<a id="container_3_href" href="javascript:switch_container(3);">
+							<div id="main-menue">
+								<div id="menue">[insert Text]</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</center>
+	</body>
 </html>

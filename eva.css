@@ -1,0 +1,144 @@
+body {
+	background-color: #7c4c4d;
+}
+.content-main {
+	width: 786px; 
+	height: 1200px; 
+	background-image: url('../Bilder/Background.png'); 
+	border-top: 5px solid #ffffff;
+	border-left: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+
+.title-main {
+	width: 400px; 
+	height: 30px; 
+	background: rgba(124, 76, 77, .8); 
+	border-radius: 20px 20px 0 0;
+}
+
+.title-main p {
+	font-family: Oleo Script Swash Caps; 
+	font-size: 18px; 
+	text-align: center; 
+	color: #660000; 
+	padding-top: 3px; 
+	text-shadow: 3px 3px 4px #f5f4f5;
+}
+
+.content-pic {
+	width: 747px; 
+	height: 747px; 
+	background-image: url('../Bilder/Content-Pic.png');
+}
+
+.content-left {
+	float: right; 
+	width: 450px; 
+	height: 600px; 
+	background-color: rgba(233, 230, 231,0.5);
+	margin-right: 2em; 
+	margin-top: -14em;
+}
+
+.story-title {
+	background-image: url('../Bilder/Minibg.png'); 
+	width: 420px; 
+	height: 20px; 
+	border-radius: 20px 20px 20px 20px; 
+	margin-top: 0.5em;
+}
+
+.story-title p {
+	font-family: Oleo Script Swash Caps; 
+	font-size: 18px; 
+	text-align: center; 
+	color: #660000; 
+	text-shadow: 3px 3px 4px #777;
+}
+
+.script {
+	overflow: auto;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 450px;
+	max-width: 100%;
+	height: 550px;
+	max-height: 85%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-top: 0.5em;
+}
+
+.script.hidden{ display: none; }
+
+.script p {
+	text-align: justify;
+}
+
+.content-right {
+	float: left; 
+	width: 250px; 
+	height: 950px; 
+	background-color: rgba(233, 230, 231,0.5);
+	margin-left: 2em; 
+	margin-top: -36em;
+}
+
+.title-menue {
+	background-image: url('../Bilder/Steckbg.png'); 
+	width: 220px; height: 20px; 
+	border-radius: 20px 20px 20px 20px; 
+	margin-top: 0.5em;
+}
+
+.title-menue p {
+	font-family: Oleo Script Swash Caps;  
+	font-size: 18px; 
+	text-align: center; 
+	color: #660000; 
+	text-shadow: 3px 3px 4px #777;
+}
+
+.menue {
+	width: 200px;
+	height: 250px;
+	margin-top: 1em;
+}
+
+a {
+	text-decoration: none;
+}
+
+#main-menue {
+	width: 150px;
+	height: 30px; 
+	border-top: 3px solid #7c4c4c;
+	border-right: 1px solid #7c4c4c;
+	border-left: 1px solid #7c4c4c;
+	border-bottom: 1px solid #7c4c4c;
+	margin-top: 0.5em;
+}
+
+.selected > #main-menue {
+    background: rgba(255, 255, 255, .5);
+ }
+
+#menue {
+	color: #6f5c61;
+	font-family: Redressed;
+	font-size: 20px;
+	text-shadow: 1px 1px #333333;
+}
+
+.menue-pic {
+	width: 200px;
+	height: 236px;
+	background-image: url('../Bilder/Frankenstein.png'); 
+	border-top: 4px solid #7c4c4c;
+	border-right: 2px solid #7c4c4c;
+	border-left: 2px solid #7c4c4c;
+	border-bottom: 2px solid #7c4c4c;
+	margin-top: 1em;
+}

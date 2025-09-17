@@ -1,6 +1,6 @@
 # Biografie-Webseite – Person A
 
-Dieses Projekt zeigt eine einfache Biografie-Webseite, die mit **HTML** und **CSS** umgesetzt wurde.  
+Dieses Projekt zeigt eine einfache Biografie-Webseite, die mit **HTML**, **CSS** und **Javascript** umgesetzt wurde.
 Im Mittelpunkt steht die klare Strukturierung von Text und Bildern.
 
 ## Technologien

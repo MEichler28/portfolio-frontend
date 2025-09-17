@@ -1,0 +1,127 @@
+body {
+	background-color: #3a3c1a;
+}
+
+.content-main {
+	width: 1180px;
+	height: 1320px;
+}
+
+#content-main {
+	float: left;
+	width: 925px;
+	background-color: #4e4e4b;
+}
+
+.content-pic {
+	width: 917px;
+	height: 600px;
+	background-image: url('../Bilder/Content-Pic.png');
+	border: 4px solid #4e4e4b;
+}
+
+.content-story {
+	width: 917px;
+	height: 575px;
+}
+
+.content-left {
+	float: left;
+	width: 315px;
+	height: 562px;
+	border-top: 27px solid #989c46;
+	border-right: 4px solid #989c46;
+	margin-left: -0.2em;
+}
+
+.mini-pics {
+	width: 315px;
+	height: 539px;
+	margin-top: -0.25em;
+	margin-left: -0.3em;
+}
+
+.mini-pic {
+	width: 300px;
+	height: 250px;
+	background-image: url('../Bilder/Mini-Pic.png');
+	border: 2px solid #989c46;
+	margin-top: 0.6em;
+	margin-left: 0.25em;
+}
+.border {
+	width: 315px;
+	border-top: 27px solid #989c46;
+	margin-top: 0.4em;
+	margin-left: 0.15em;
+}
+
+#mini-pic {
+	width: 300px;
+	height: 250px;
+	background-image: url('../Bilder/Mini-Pics.png');
+	border: 2px solid #989c46;
+	margin-top: 0.4em;
+	margin-left: 0.25em;
+}
+
+.content-right {
+	float: right;
+	width: 595px;
+	height: 562px;
+}
+
+.script {
+	overflow: auto;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 590px;
+	max-width: 100%;
+	height: 560px;
+	max-height: 100%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-top: 0.5em;
+}
+
+.script.hidden{ display: none; }
+
+.script p {
+	color: #c5c5c5;
+	text-align: justify;
+}
+
+.menue-main {
+	float: right;
+	width: 245px;
+	height: 1309px;
+}
+
+.menue {
+	margin-top: 3em;
+}
+
+#main-menue {
+	width: 120px;
+	height: 120px;
+	border: 2px dotted #606060; 
+	border-radius: 100px;  
+	margin-top: 0.5em;
+	box-shadow: 2px 2px 3px #000; 
+}
+
+.selected > #main-menue {
+    background: rgba(255, 255, 255, .1);
+	text-shadow: 3px 3px 4px #000;
+ }
+
+a {
+	text-decoration: none;
+}
+
+#menue {
+	color: #6b6b6b;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 4.5em;
+}

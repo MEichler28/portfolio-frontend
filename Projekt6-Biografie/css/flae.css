@@ -1,0 +1,215 @@
+body {
+	background-color: #09500c; 
+	color: #007800; 
+	font-family:  Helvetica, Arial, sans-serif; 
+	font-size: 12px;
+}
+
+fieldset { 
+	background-color: transparent; 
+	color: #007800;
+}
+
+a { 
+	background-color: transparent; 
+	color: #007800;
+	text-decoration: none;
+}
+
+.content-main {
+	width: 1200px;
+	height: 600px;
+}
+
+.content-over {
+	width: 1200px;
+	height: 200px;
+	background: rgba(153, 254 ,153, .7);
+}
+
+#content-menue {
+	float: left;
+	width: 200px;
+	height: 200px;
+}
+
+.content-menue {
+	margin-top: 2em;
+}
+
+.menue {
+	width: 150px;
+	height: 15px;
+	background-color: #4f516d;
+	border-radius: 25px 25px 0px 0px;
+	margin-top: 0.5em;
+	margin-right: 2em;
+}
+
+#menue {
+	width: 150px;
+	height: 15px;
+	background-color: #6f709c;
+	border-radius: 0px 0px 25px 25px;
+	margin-top: 0.5em;
+	margin-left: 2em;
+}
+
+.menue p {
+	color: #9ffe9f;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#menue p {
+	color: #9ffe9f;	
+	font-weight: lighter;
+	text-align: center;
+}
+
+.selected > .menue {
+    background: rgba(255, 255, 255, .2);
+  }
+
+.selected > #menue {
+    background: rgba(255, 255, 255, .2);
+  }
+.content-pic {
+	float: left;
+	width: 800px;
+	height: 200px;
+	background-image: url('../Bilder/Content-Pic.png');
+	box-shadow: inset 2px 2px 3px #6f709c, inset -2px -2px 3px #6f709c;
+}
+
+.content-personal {
+	float: right;
+	width: 200px;
+	height: 200px;
+	overflow: auto;
+	position: relative;
+	padding: 20px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+} 
+
+.content-personal.hidden{ display: none; }
+
+.content-personal h3 {
+	text-align: left;
+	width: 150px;
+	height: 20px;
+	background-color: #4f516d;
+	border-radius: 25px 25px 0px 0px;
+	padding-left: 15px;
+}
+
+.names {
+	text-align: right;
+	font-weight: bold;
+	text-decoration: ;
+}
+
+.point {
+	text-align: left;
+}
+
+.content-under {
+	width: 800px;
+	height: 320px;
+	background: rgba(153, 254 ,153, .7);
+}
+
+.content-script {
+	width: 800px;
+	height: 300px;
+	overflow: auto;
+	position: relative;
+	padding: 20px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+} 
+
+.content-script.hidden{ display: none; }
+
+.content-script  h2 {
+	text-align: left;
+	width: 400px;
+	height: 20px;
+	font-size: 20px;
+	padding-left: 25px;
+	background-color: #6f709c;
+	border-radius: 0px 0px 25px 25px;
+	color: #9ffe9f;	
+}
+
+.icon {
+	width: 629px;
+	height: 54px;
+	background-image: url('../Bilder/Icon.png');
+}
+
+.content-script  p {
+	text-align: justify;
+}
+
+.subheadline {
+	font-family: candara; 
+	font-size: 12px; 
+	color: #555675; 
+	text-align: center;
+	text-transform: lowercase; 
+	text-shadow:#777 3px 2px 3px; 
+	letter-spacing: 0.25em; 
+	line-height:95%; 
+	font-style: italic;
+}
+
+
+p {
+	text-align: justify;
+}
+
+.activater:hover {
+		cursor: pointer;
+	}
+	
+	
+	.activater{
+	cursor: pointer;
+	}
+	
+	.activater:before{
+	cursor: pointer;
+	speak: none;
+	display: inline-block;
+	}
+	
+	.darkener {
+		position: fixed;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		background-image: url(http://www.user-pics.de/Fee/BG.png);
+		overflow: hidden;
+		
+		z-index: 19999;
+		display: none;
+	}
+	
+	.text_container {
+		position: absolute;
+		display: none;
+		width: 400px;
+		height: 290px;
+		z-index: 19999;
+		
+		top: 40%;
+		left: 50%;
+		margin-top: -3.8em;
+		margin-left: -1.7em;
+			
+		box-shadow: inset 2px 2px 3px #6f709c, inset -2px -2px 3px #6f709c;
+		background-color: #4f516d;
+		padding: 10px;
+		overflow: auto;
+	}

@@ -1,0 +1,246 @@
+body {
+	background-color: #455a73;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content-main {
+	float:right;
+	width: 1500px;
+	height: 1300px;
+	margin-right: 0em;
+}
+
+/*----------------*/
+.content-main-left {
+	float: left;
+	width: 200px;
+}
+
+.content-circle {}
+
+#content-circle {width: 180px;}
+
+.circle-linie {
+	float: left;
+	width: 106px; 
+	border-bottom: 3px solid #3b7461; 
+	margin-top: 3em; 
+	margin-right: 8em;
+}
+
+#circle-linie {
+	float: left;
+	width: 57px; 
+	border-bottom: 3px solid #3b7461; 
+	margin-top: 3em; 
+	margin-right: 8em;
+}
+
+.circle {
+	width: 90px;
+	height: 90px;
+	background-color: #fff;  
+	border-width: 4px; 
+	border-top-style: ridge;
+	border-bottom-style: ridge; 
+	border-color: #3b995b; 
+	border-radius: 100px;  
+	box-shadow: 2px 2px 3px #000; 
+	margin-top: 1.5em;
+	margin-left: 6.7em;
+}
+
+#circle {
+	width: 90px;
+	height: 90px;  
+	border-width: 4px; 
+	border-top-style: ridge;
+	border-bottom-style: ridge; 
+	border-color: #3b995b; 
+	border-radius: 100px;  
+	box-shadow: 2px 2px 3px #000; 
+	margin-top: 1.5em;
+	margin-right: -1.5em;
+}
+
+.circle-pic {
+	width: 90px;
+	height: 90px;
+	background-image: url('../images/circle-pic.png');
+	border-radius: 100px; 
+}
+
+.circle-pic1 {
+	width: 90px;
+	height: 90px;
+	background-image: url('../images/circle-pic1.png');
+	border-radius: 100px; 
+}
+
+.circle-pic2 {
+	width: 90px;
+	height: 90px;
+	background-image: url('../images/circle-pic2.png');
+	border-radius: 100px; 
+}
+
+.circle-pic3 {
+	width: 90px;
+	height: 90px;
+	background-image: url('../images/circle-pic3.png');
+	border-radius: 100px; 
+}
+
+.circle-pic4 {
+	width: 90px;
+	height: 90px;
+	background-image: url('../images/circle-pic4.png');
+	border-radius: 100px; 
+}
+
+/*---------------*/
+
+.content-main-right {
+	float: right;
+	width: 1300px;
+}
+
+#content-main-right {
+	width: 1200px;
+}
+
+.content-main-pic {}
+
+.content-pic {
+	width: 1290px;
+	height: 695px;
+	background-image: url('../images/Header.png');
+}
+
+/*------------------*/
+
+.content-main-story {
+	
+	float: left;
+	width: 750px;
+	height: 650px;
+	border: 1px solid #3b7461;
+	border-radius: 30px;
+	box-shadow: 10px 10px 5px rgba(52, 63, 76, 9);
+	margin-top: -7em;
+}
+
+.content-story {
+}
+
+.content-story h1 {
+	color: #3a745c;
+	font-size: 35px;
+	font-family: Rouge Script;
+	text-shadow: 3px 4px 3px rgba(0, 0, 0, 9);
+	background-image:linear-gradient(90deg,#000,#4b7ebc,#3a745c,#3ee15a,#3a745c,#4b7ebc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.content-storys {
+	overflow: auto;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 750px;
+	max-width: 100%;
+	height: 650px;
+	max-height: 85%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-top: -1.5em;
+}
+
+.content-storys.hidden{ display: none; }
+
+.content-storys p {
+	color: #3ee15a;
+	text-align: justify;
+	font-size: 12px;
+}
+
+/*------------------*/
+
+.content-side-box {
+	float: left;
+	width: 260px;
+	height: 650px;
+	border: 1px solid #3b7461;
+	border-radius: 30px;
+	box-shadow: 10px 10px 5px rgba(52, 63, 76, 9);
+	margin-left: 5em;
+	margin-top: -7em;
+}
+
+.content-main-race {
+	width: 220px;
+	height: 300px;
+	box-shadow: 10px 10px 5px rgba(52, 63, 76, 9);
+}
+
+.content-main-race h1 {
+	color: #3ee15a;
+	font-size: 25px;
+	font-family: Rouge Script;
+}
+
+.content-race {
+	overflow: auto;
+	position: relative;
+	width: 220px;
+	max-width: 100%;
+	height: 300px;
+	max-height: 90%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-top: -1.5em;
+}
+
+.content-race.hidden{ display: none; }
+
+.content-race p {
+	color: #3ee15a;
+	text-align: justify;
+	font-size: 12px;
+}
+
+.content-main-info {
+	margin-top: 2em;
+}
+
+.content-main-menue {
+	width: 240px;
+	height: 200px;
+	margin-top: 2.5em;
+}
+
+#main-menue {
+	width: 220px;
+	height: 30px;
+	border: 1px solid #3b7461;
+	border-radius: 30px;
+	box-shadow: 10px 10px 5px rgba(52, 63, 76, 9);
+	margin-top: 1em;
+}
+
+#menue {
+	color: #3ee15a;
+	text-align: center;
+	font-size: 16px;
+	font-family: Shadows Into Light Two;
+	padding: 5px;
+	
+}
+
+.selected > #main-menue {
+    background: rgba(255, 255, 255, .2);
+ }
+
+.form1 {background-color: black;}

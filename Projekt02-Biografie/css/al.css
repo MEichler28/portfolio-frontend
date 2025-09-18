@@ -14,7 +14,7 @@ a {
 .content-pic {
 	width: 1262px;
 	height: 538px;
-	background-image: url('../Bilder/Content-Pic.png');
+	background-image: url('../images/Content-Pic.png');
 	border-radius: 35px 35px 0 0;
 	border-top: 3px solid #70a66a;
 }

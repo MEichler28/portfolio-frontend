@@ -15,7 +15,7 @@ a {
 .content-pic {
 	width: 1192px;
 	height: 670px;
-	background-image: url('../Bilder/Content-Picture.png');
+	background-image: url('../images/Content-Picture.png');
 	/*background-image: url('file:///H:/LOGD/Biograpfien/Aktuelle%20Charaktere/Pantheon/Aktuelle%20Charaktere/Mittelalter/Melithraya/Aktuell/szablon_88_by_madwoman98_d73jt6b-pre.jpg');*/
 }
 
@@ -71,7 +71,7 @@ a {
 .fairy {
 	width: 170px;
 	height: 86px;
-	background-image: url('../Bilder/Fairy.png');
+	background-image: url('../images/Fairy.png');
 	margin-top: 3em;
 }
 

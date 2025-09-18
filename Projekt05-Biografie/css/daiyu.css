@@ -16,7 +16,7 @@ body {
 .content-pic {
 	width: 917px;
 	height: 600px;
-	background-image: url('../Bilder/Content-Pic.png');
+	background-image: url('../images/Content-Pic.png');
 	border: 4px solid #4e4e4b;
 }
 
@@ -44,7 +44,7 @@ body {
 .mini-pic {
 	width: 300px;
 	height: 250px;
-	background-image: url('../Bilder/Mini-Pic.png');
+	background-image: url('../images/Mini-Pic.png');
 	border: 2px solid #989c46;
 	margin-top: 0.6em;
 	margin-left: 0.25em;
@@ -59,7 +59,7 @@ body {
 #mini-pic {
 	width: 300px;
 	height: 250px;
-	background-image: url('../Bilder/Mini-Pics.png');
+	background-image: url('../images/Mini-Pics.png');
 	border: 2px solid #989c46;
 	margin-top: 0.4em;
 	margin-left: 0.25em;

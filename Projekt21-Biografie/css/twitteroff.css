@@ -1,0 +1,345 @@
+body {
+	background-color: #737373;
+}
+
+.content-main {
+	width: 1000px;
+	height: auto;
+	margin-right: -5em;
+}
+
+#twitter { 
+	padding: 20px; 
+	width: 550px; 
+	background-color: #c5c5c5;
+}
+
+#theader { 
+	height: 288px; 
+	width: 720px; 
+	background-image: url('../images/titelbild.png'); 
+	box-shadow: inset 0px 0px 50px #000000; 
+	border-top-left-radius: 6px; 
+	border-top-right-radius: 6px; 
+	margin-left: -5em;
+	margin-top: -1.3em;
+}
+
+#menue {
+	float: right;
+	margin-top: 16.5em;
+	margin-right: 1em;
+}
+
+
+a {
+	text-decoration: none;
+	color: #ffffff; 
+	text-shadow: #000000 1px 1px 1px; 
+	font-weight: bold;
+}
+
+#icon {
+	width: 200px; 
+	height: 200px; 
+	background-color: #c5c5c5;  
+	border-width: 4px; 
+	border-top-style: ridge;
+	border-bottom-style: ridge; 
+	border-color: #606060; 
+	border-radius: 100px;  
+	box-shadow: 2px 2px 3px #000; 
+	background-image: url('../images/Profilava.png'); 
+	margin-top: -8em;
+	margin-left: -25em;
+}
+
+#name { 
+	font-family: 'Dancing Script'; 
+	font-size: 27px; 
+	font-weight: bold; 
+	color: #ffffff; 
+	text-shadow: #000000 1px 1px 1px; 
+	margin-top: -2.5em;
+}
+
+#twittername { 
+	font-family: 'Sofia'; 
+	font-size: 17px;
+	color: #ffffff; 
+	text-shadow: #000000 1px 1px 1px; 
+}
+
+#leiste { 
+	height: 60px; 
+	width: 550px; 
+	border-bottom-left-radius: 6px; 
+	border-bottom-right-radius: 6px; 
+	background-color: #c5c5c5;
+	margin-top:4em;
+}
+
+#stats { 
+	width: 275px; 
+	float: left; 
+	margin-left: 15px; 
+	margin-top: 5px; 
+} 
+
+.stats1 { 
+	font-family: 'Arial';
+	font-size: 10px; 
+	color: #999999; 
+	text-transform: uppercase;
+}
+ 
+.stats2 { 
+	font-family: 'Arial'; 
+	font-size: 20px; 
+	color: #292f33; 
+}
+ 
+#folgen { 
+	float: right; 
+	margin-top: 12px; 
+	margin-right: 10px; 
+	background-image: url('http://eightletters.de/Twitter/folgen.jpg'); 
+	height: 38px; 
+	width: 104px; 
+}
+
+#thead1 { 
+	height: 40px; 
+	width: 550px; 
+	border-top-left-radius: 5px; 
+	border-top-right-radius: 5px; 
+	background-color: #c5c5c5;
+	border: 1px solid #e1e8ed; 
+	border-bottom: none;
+}
+ 
+#tweets { 
+	font-family: 'Arial'; 
+	font-size: 22px; 
+	color: #66757f; 
+	float: left;
+	margin-left: 10px; 
+	margin-top: 10px;
+} 
+
+.tweet { 
+	width: 550px; 
+	height: 300px;
+	border: 1px solid #e1e8ed;
+} 
+
+.tweet1 { 
+	width: 550px; 
+	height: 300px;
+	border: 1px solid #e1e8ed;
+} 
+
+.tweet2 { 
+	width: 550px; 
+	height: 300px;
+	border: 1px solid #e1e8ed;
+} 
+
+.tweeti {
+	width: 500px;
+}
+
+.tweetleft {
+	float: left;
+	width: 50px;
+	margin-top: 2.5em;
+}
+
+.ticon { 
+	height: 50px; 
+	width: 50px; 
+	border-radius: 100px; 
+	background-image: url('../images/miniava.png');
+	margin-top: -2em;
+}
+
+.tweetright {
+	float: right;
+	width: 400px;
+	margin-top: -3em;
+	margin-right: 8em;
+}
+
+.tname { 
+	font-family: 'Arial'; 
+	font-size: 14px; 
+	color: #292f33; 
+	font-weight: bold; 
+} 
+
+.taccount { 
+	font-family: 'Arial'; 
+	font-size: 13px; 
+	color: #777777; 
+}  
+
+.text0 { 
+	width: 400px;
+	font-family: 'Arial'; 
+	font-size: 14px;
+	color: #292f33;  
+	margin-right: 7em;
+} 
+
+.text { 
+	width: 400px;
+	font-family: 'Arial'; 
+	font-size: 14px;
+	color: #292f33;  
+	margin-right: -10em;
+} 
+
+.text1 { 
+	width: 400px;
+	font-family: 'Arial'; 
+	font-size: 14px;
+	color: #292f33;  
+	margin-right: -2.3em;
+}
+
+.tweettext {
+	float: left;
+	width: 300px;
+	margin-top: -0.5em;
+	margin-left: 7em;
+}
+
+.images_tw {
+	width: 200px;
+	height: 200px; 
+	border: 1px solid white;
+}
+
+.images_ty {
+	width: 259px;
+	height: 200px; 
+	border: 1px solid white;
+	margin-left: -3em;
+}
+
+.elastic-video {
+	width: 400px;
+	height: 250px;
+	position: relative;
+	padding-bottom: 55%;
+	padding-top: 15px;
+	height: 0;
+	overflow: hidden;
+	margin-left: -3em;
+}
+
+.elastic-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+} 
+
+.hashtag { 
+	font-family: 'Arial'; 
+	font-size: 14px; 
+	color: #626262; 
+}
+
+.tweet3 { 
+	width: 550px; 
+	height: 500px;
+	border: 1px solid #e1e8ed;
+} 
+
+.textstory { 
+	width: 480px;
+	margin-right: 0em;
+} 
+
+.textstory p {
+	font-family: 'Arial'; 
+	text-align: justify;
+	font-size: 14px;
+	color: #292f33;  
+}
+
+.images_fr {
+	float: right;
+	width: 200px;
+	height: 200px; 
+	border: 1px solid white;
+	border-radius: 40px;
+	margin-top: 3px; 
+	margin-left: 5px;
+}
+
+.images_fl {
+	float: left;
+	width: 200px;
+	height: 200px; 
+	border: 1px solid white;
+	border-radius: 40px;
+	margin-top: 3px; 
+	margin-right: 5px;
+}
+
+.content {
+	overflow: auto;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	width: 550px;
+	max-width: 100%;
+	height: 500px;
+	max-height: 100%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-top: 1.5em;
+}	
+
+.content.hidden{ display: none; }
+
+.fear {
+	width: 400px;
+	height: 136px;
+	background-image: url('../images/fear.png');
+	border: 1px solid #fbcece;
+	border-radius: 40px;
+}
+
+ h6 {
+	color: #413c3c;
+	font-size: 14px;
+	font-family: Josefin;
+}
+
+p {
+	color: #413c3c;
+	font-size: 14px;
+	text-align: justify;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.malachy {
+	width: 400px;
+	height: 136px;
+	background-image: url('../images/malachy.png');
+	border: 1px solid #fbcece;
+	border-radius: 40px;
+}
+
+.persona {
+	width: 400px;
+	height: 136px;
+	background-image: url('../images/personas.png');
+	border: 1px solid #fbcece;
+	border-radius: 40px;
+}

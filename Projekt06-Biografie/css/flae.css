@@ -78,7 +78,7 @@ a {
 	float: left;
 	width: 800px;
 	height: 200px;
-	background-image: url('../Bilder/Content-Pic.png');
+	background-image: url('../images/Content-Pic.png');
 	box-shadow: inset 2px 2px 3px #6f709c, inset -2px -2px 3px #6f709c;
 }
 
@@ -144,7 +144,7 @@ a {
 .icon {
 	width: 629px;
 	height: 54px;
-	background-image: url('../Bilder/Icon.png');
+	background-image: url('../images/Icon.png');
 }
 
 .content-script  p {

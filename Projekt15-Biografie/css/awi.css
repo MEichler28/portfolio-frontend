@@ -10,7 +10,7 @@ body {
 .content-pic {
 	width: 1300px;
 	height: 787px;
-	background-image: url('../Bilder/Content-Pic.png');
+	background-image: url('../images/Content-Pic.png');
 	margin-top: 0em;
 }
 
@@ -30,7 +30,7 @@ body {
 .mini-pic {
 	width: 300px;
 	height: 300px;
-	background-image: url('../Bilder/Mini-Pic.png');
+	background-image: url('../images/Mini-Pic.png');
 	border-radius: 50% 50% 0% 0%;
 	border: 3px solid #584348;
 	margin-top: 3em;

@@ -5,7 +5,7 @@ body {
 .content-main {
 	width: 786px; 
 	height: 1200px; 
-	background-image: url('../Bilder/Background.png'); 
+	background-image: url('../images/Background.png'); 
 	border-top: 5px solid #ffffff;
 	border-left: 2px solid #ffffff;
 	border-right: 2px solid #ffffff;
@@ -31,7 +31,7 @@ body {
 .content-pic {
 	width: 747px; 
 	height: 747px; 
-	background-image: url('../Bilder/Content-Pic.png');
+	background-image: url('../images/Content-Pic.png');
 }
 
 .content-left {
@@ -44,7 +44,7 @@ body {
 }
 
 .story-title {
-	background-image: url('../Bilder/Minibg.png'); 
+	background-image: url('../images/Minibg.png'); 
 	width: 420px; 
 	height: 20px; 
 	border-radius: 20px 20px 20px 20px; 
@@ -88,7 +88,7 @@ body {
 }
 
 .title-menue {
-	background-image: url('../Bilder/Steckbg.png'); 
+	background-image: url('../images/Steckbg.png'); 
 	width: 220px; height: 20px; 
 	border-radius: 20px 20px 20px 20px; 
 	margin-top: 0.5em;
@@ -136,7 +136,7 @@ a {
 .menue-pic {
 	width: 200px;
 	height: 236px;
-	background-image: url('../Bilder/Frankenstein.png'); 
+	background-image: url('../images/Frankenstein.png'); 
 	border-top: 4px solid #7c4c4c;
 	border-right: 2px solid #7c4c4c;
 	border-left: 2px solid #7c4c4c;

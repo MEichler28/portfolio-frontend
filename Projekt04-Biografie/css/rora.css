@@ -14,7 +14,7 @@ a {
 .content-pic {
 	width: 1100px;
 	height: 564px;
-	background-image: url('../Bilder/Content-Pic.png');
+	background-image: url('../images/Content-Pic.png');
 	border: 2px dotted #e44a54;
 }
 
@@ -119,11 +119,11 @@ p {
 #pic {
 	width: 280px;
 	height: 280px;
-	background-image: url('../Bilder/Pic.png')
+	background-image: url('../images/Pic.png')
 }
 
 #pics {
 	width: 280px;
 	height: 280px;
-	background-image: url('../Bilder/Ilain.png')
+	background-image: url('../images/Ilain.png')
 }

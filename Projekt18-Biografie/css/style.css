@@ -1,0 +1,342 @@
+
+body{
+	background-color: #fbf9a1;
+	color: #000;
+	font-size: 12px;
+	font-family: "Verdana",Geneva,sans-serif;
+	margin: 0;
+	padding: 0;
+	min-width: 480px;
+}
+
+fieldset {
+	background-color: transparent; 
+	color: #000;
+}
+a {
+	background-color: transparent; 
+	color: #000; 
+	text-decoration: none;
+}
+
+p {
+	text-align: justify;
+}
+h2{
+	font-family: "Lobster Two", "Georgia", serif;
+	font-weight: 700px;
+	font-style: italic;
+	text-align: left; 
+	color: #9f9b5c;
+}
+
+h3 {
+	font-weight: 700px;
+	font-style: italic;
+	text-align: left; 
+	color: #9f9b5c;
+
+}
+
+h4 {
+	font-family: Lovers Quarrel; 
+	color: #9f9b5c; 
+	font-size: 35px; 
+	letter-spacing: 2px; 
+	text-align: center; 
+	font-weight: bolder; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+	margin-top: 0.2em;
+}
+
+h5 {
+	float: left; 
+	font-family: Aguafina Script; 
+	color: #9f9b5c; 
+	font-size: 35px; 
+	letter-spacing: 2px; 
+	text-align: center; 
+	font-weight: bolder; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+	margin-top: 0em;
+}
+
+h6 {
+	font-family: Lovers Quarrel; 
+	font-size: 35px; 
+	letter-spacing: 2px; 
+	text-align: center; 
+	font-weight: bolder; 
+	margin-top:0.2em;
+}
+			
+hr{
+	background-color: transparent;
+	height: 0;
+	border: none;
+	border-bottom: 1px solid rgba(255,255,255,0.08);
+	border-top: 1px solid rgba(0,0,0,0.9);
+	margin: 0;
+	clear: both;
+}
+.main-content {
+	width: 1200px; 
+	height: 450px;
+}
+
+.content-main {
+	width: 1200px; 
+	height: 550px;
+	margin-top: 3em;
+}
+
+/* .content-pic {
+	float: right; 
+	width: 720px; 
+	height: 455px; 
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/HeadPic 01.png');
+}*/
+
+.content-pic {
+	float: right; 
+	width: 800px; 
+	height: 444px; 
+	position: absolut;
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/Header.png'); 
+	margin-right: -2.7em;
+	margin-bottom: 2em;
+	
+}
+
+.content-main-menue {
+	float: left; 
+	width: 210px; 
+	height: 250px; 
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/main_menue.png'); 
+	border-top: 8px solid #c9ab80;
+	border-left: 1px dotted #000; 
+	border-right: 1px dotted #000; 
+	border-bottom: 8px solid #c9ab80;	
+	margin-top: 8em; 
+	margin-left: 14em;
+}
+
+#main-menue {
+	margin-top: 2em;
+}
+#mini {
+	font-size: 10px; 
+	text-align: center; 
+	margin-top: -4.5em;
+}
+
+#menue {
+	background-color: #c9ab80; 
+	color: #eecfa1; 
+	width: 140px; 
+	height: 20px; 
+	font-family: Armata; 
+	font-size: 12px; 
+	font-style:italic; 
+	text-align: center; 
+	text-shadow:#000 3px 2px 3px; 
+	padding-top: 2px;
+}
+
+.content-main-story {
+	float: left; 
+	width: 550px; 
+	height: 450px; 
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/main-story.png'); 
+	border-top: 8px solid #c9ab80; 
+	border-left: 1px dotted #000; 
+	border-right: 1px dotted #000; 
+	border-bottom: 8px solid #c9ab80; 
+	margin-left: 13em;
+}
+
+#main-story {
+	width: 500px; 
+	height: 430px;
+}
+
+.facts {
+	float: left; 
+	width: 210px; 
+	margin-top: -30em; 
+	margin-left: -13em;
+}
+
+.facts1 {
+	float: right; 
+	width: 180px; 
+	margin-top: 0em; 
+	margin-right: 6em;
+}
+
+.facts2 {
+	float: left; 
+	width: 120px; 
+	margin-top: -23em; 
+	margin-left: -13em;
+}
+
+.facts3 {
+	float: right; 
+	width: 350px; 
+	margin-top: -23em; 
+	margin-right: 0em;
+}
+
+#tmo_list {
+	margin: 20px 0; 
+	padding: 0; 
+	list-style: none;
+}
+
+#tmo_list li {
+	margin: 0 0 2px; 
+	padding: 0 0 5px 0; 
+	border-bottom: 1px dotted #666; 
+	color: #000; 
+	text-align: justify;  
+	font-size: 11px;
+}
+
+.content-main-phobias {
+	float: right; 
+	width: 180px; 
+	height: 300px; 
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/main-phobias.png'); 
+	border-top: 8px solid #c9ab80; 
+	border-left: 1px dotted #000; 
+	border-right: 1px dotted #000; 
+	border-bottom: 8px solid #c9ab80; 
+	margin-top: 5em; 
+	margin-right: 18em;
+}
+
+#main-phobias {
+	float: right; 
+	width: 179px; 
+	height: 300px; 
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/main-phobias_01.png'); 
+	margin-top: 0em;
+	margin-right: 0em;
+}
+
+.phobias-second {
+	margin-top: 10em;
+	margin-left: -3em;
+}
+
+#phobias-pic {
+	width: 160px; 
+	height: 135px; 
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/phobias-pic.png'); 
+	border: 1px dotted #c9ab80; 
+	margin-top: 0.7em;
+}
+
+#phobias-pic1 {
+	width: 160px; 
+	height: 135px; 
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/phobias-pic_01.png'); 
+	border: 1px dotted #c9ab80; 
+	margin-top: 0.7em;
+}
+
+#mini-phobias {
+	font-size: 10px; 
+	text-align: center;
+	 margin-top: -4.5em;
+}
+
+.phobias {
+	float:left;
+	width: 500px; 
+	height: 430px;
+	margin-top: -10em;
+}
+
+#phobias {
+	width: 500px;
+	margin-left: 5em;
+}
+
+.merinthophobie {
+	width: 502px;
+	height: 182px;
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/Merinthophobie.png');
+	border-top: 5px solid #c9ab80; 
+	border-bottom: 5px solid #c9ab80; 
+	border-radius: 25px 25px 0 0;
+}
+
+.ceraunophobie{
+	width: 502px;
+	height: 182px;
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/Ceraunophobie.gif');
+	border-top: 5px solid #c9ab80; 
+	border-bottom: 5px solid #c9ab80; 
+	border-radius: 25px 25px 0 0;
+	margin-top: 3em;
+}
+
+.coulrophobie {
+	width: 502px;
+	height: 182px;
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/Coulrophobie.png');
+	border-top: 5px solid #c9ab80; 
+	border-bottom: 5px solid #c9ab80; 
+	border-radius: 25px 25px 0 0;
+	margin-top: 3em;
+}
+
+.content-main-friends {
+	float: right; 
+	width: 180px; 
+	height: 200px; 
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/main-friends.png'); 
+	border-top: 8px solid #c9ab80; 
+	border-left: 1px dotted #000;
+	border-right: 1px dotted #000; 
+	border-bottom: 8px solid #c9ab80; 
+	margin-top: -10.5em;
+}
+
+#main-friends {
+	float: right; 
+	width: 175px; 
+	height: 198px; 
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/main-friends_01.png'); 
+	margin-top: 0em;
+	margin-right: 0.2em;
+}
+
+.friends-second{
+	margin-top: 10em;
+	margin-left: -3em;
+}
+
+#friends-pic {
+	width: 160px; 
+	height: 180px; 
+	background-image: url('http://www.user-pics.de/Hogsmeade/Soyala/friends-pic.png'); 
+	border: 1px dotted #c9ab80; 
+	margin-top: 0.7em;
+}
+
+.content{
+	overflow: auto;
+	position: relative;
+	padding: 20px;
+	margin-top: -36em;
+	margin-left: -13em;
+	width: 740px;
+	max-width: 97%;
+	height: 400px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.content.hidden{ display: none; }

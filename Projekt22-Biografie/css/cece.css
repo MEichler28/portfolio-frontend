@@ -1,0 +1,285 @@
+html {
+	--background-color: #3b422d;
+	--mm-02: #2c452f;
+    --border-color: #d57868;
+    --mm-02c: #d57868;
+	--corner-width: 20px;
+	--mm-01: #d57868;
+}
+
+.content-main {
+	width: 170px;
+	height: 200px;
+	border: 2px solid var(--border-color);
+	position: relative;
+	background-position: center;
+	background-color: #2c452f;
+}
+
+.content-main > b::after,
+.content-main > b::before,
+.content-main::after,
+.content-main::before {
+	content: "";
+	position: absolute;
+	width: var(--corner-width);
+	height: var(--corner-width);
+	border: double 2px transparent;
+	border-radius: 50%;
+	background-image: linear-gradient(var(--background-color), var(--background-color)), linear-gradient(to right, var(--border-color), var(--border-color));
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+.content-main > b::after {
+	background-image: linear-gradient(var(--background-color), var(--background-color)), linear-gradient(135deg, var(--background-color) 0%, var(--background-color) 69%, var(--border-color) 70%, var(--border-color) 100%);
+	top: calc(var(--corner-width) / 2 * -1);
+	left: calc(var(--corner-width) / 2 * -1);
+}
+
+.content-main > b::before {
+	background-image: linear-gradient(var(--background-color), var(--background-color)), linear-gradient(225deg, var(--background-color) 0%, var(--background-color) 69%, var(--border-color) 70%, var(--border-color) 100%);
+	top: calc(var(--corner-width) / 2 * -1);
+	right: calc(var(--corner-width) / 2 * -1);
+}
+
+.content-main::after {
+	background-image: linear-gradient(var(--background-color), var(--background-color)), linear-gradient(45deg, var(--background-color) 0%, var(--background-color) 69%, var(--border-color) 70%, var(--border-color) 100%);
+	bottom: calc(var(--corner-width) / 2 * -1);
+	left: calc(var(--corner-width) / 2 * -1);
+}
+
+.content-main::before {
+	background-image: linear-gradient(var(--background-color), var(--background-color)), linear-gradient(315deg, var(--background-color) 0%, var(--background-color) 69%, var(--border-color) 70%, var(--border-color) 100%);
+	bottom: calc(var(--corner-width) / 2 * -1);
+	right: calc(var(--corner-width) / 2 * -1);
+}
+
+body {
+	background-color: var(--background-color);
+}
+
+.content-main {
+	width: 1300px;
+	height: 900px;
+}
+
+.content-left {
+	float: left;
+	width: 738px;
+	height: 900px;
+}
+
+.content-menue{
+	width: 700px;
+	height: 100px;
+}
+
+.menue{
+	width: 700px;
+	height: 50px;
+	margin-left: 4em;
+}
+
+#menue { 
+	float: left; 
+	width: 170px; 
+	height: 30px; 
+	border: 1px solid var(--mm-01); 
+	background-color: #3b422d; 
+	position: relative; 
+	background-position: center; 
+	margin-top: 1em; 
+	margin-right: 1.5em; 
+} 
+
+#menue > b::after, 
+#menue > b::before , 
+#menue::after, 
+#menue::before { 
+	content: ""; 
+	position: absolute; 
+	width: 10px; 
+	height: 10px; 
+	border-style: solid; 
+	border-color: var(--mm-01); 
+	background: #2c452f; 
+} 
+
+#menue > b::after { 
+	top: -1px; 
+	left: -1px; 
+	border-width: 0 1px 1px 0; 
+} 
+
+#menue > b::before { 
+	top: -1px; 
+	right: -1px; 
+	border-width: 0 0 1px 1px; 
+} 
+
+#menue::after { 
+	bottom: -1px; 
+	left: -1px; 
+	border-width: 1px 1px 0 0; 
+} 
+
+#menue::before { 
+	bottom: -1px; 
+	right: -1px; 
+	border-width: 1px 0 0 1px; 
+} 
+
+.selected > #menue {
+	background: rgba(255, 255, 255, .);
+}
+
+.menues {
+	float: left; 
+	width: 170px; 
+	height: 30px; 
+	border: 1px solid var(--mm-01); 
+	background-color: #3b422d; 
+	position: relative; 
+	background-position: center; 
+	margin-top: 1em; 
+	margin-right: 1.5em; 
+} 
+.menues > b::after, 
+.menues > b::before , 
+.menues::after, 
+.menues::before { 
+	content: ""; 
+	position: absolute; 
+	width: 10px; 
+	height: 10px; 
+	border-style: solid; 
+	border-color: var(--mm-01); 
+	background: #2c452f; 
+}
+	
+.menues > b::after { 
+	top: -1px; 
+	left: -1px; 
+	border-width: 0 1px 1px 0; 
+} 
+
+.menues > b::before { 
+	top: -1px; 
+	right: -1px; 
+	border-width: 0 0 1px 1px; 
+} 
+
+.menues::after { 
+	bottom: -1px; 
+	left: -1px; 
+	border-width: 1px 1px 0 0; 
+} 
+
+.menues::before { 
+	bottom: -1px; 
+	right: -1px; 
+	border-width: 1px 0 0 1px; 
+} 
+
+.selected > .menues {
+	background: rgba(255, 255, 255, .);
+}
+
+a {
+	text-decoration: none;
+}
+
+#menues{
+	color: #eecdc7;
+	font-family: Redressed;
+	font-size: 20px;
+}
+
+.content-story {
+	width: 700px;
+	height: 900px;
+}
+
+
+.story-background {
+    width: 550px;
+    height: 550px;
+    border: 1px solid var(--mm-02c);
+	background-color: #3b422d; 
+	position: relative;
+	background-position: center;
+	margin-top: 10em;
+    }
+
+    .story-background > b::after,
+    .story-background > b::before,
+    .story-background::after,
+    .story-background::before {
+	content: "";
+	position: absolute;
+	width: var(--corner-width);
+	height: var(--corner-width);
+	border: double 1px transparent;
+	border-radius: 50%;
+	background-image: linear-gradient(var(--mm-02), var(--mm-02)), linear-gradient(to right, var(--mm-02c), var(--mm-02c));
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+    }
+
+    .story-background > b::after {
+	background-image: linear-gradient(var(--mm-02), var(--mm-02)), linear-gradient(135deg, var(--mm-02) 0%, var(--mm-02) 69%, var(--mm-02c) 70%, var(--mm-02c) 100%);
+	top: calc(var(--corner-width) / 2 * -1);
+	left: calc(var(--corner-width) / 2 * -1);
+    }
+
+    .story-background > b::before {
+	background-image: linear-gradient(var(--mm-02), var(--mm-02)), linear-gradient(225deg, var(--mm-02) 0%, var(--mm-02) 69%, var(--mm-02c) 70%, var(--mm-02c) 100%);
+	top: calc(var(--corner-width) / 2 * -1);
+	right: calc(var(--corner-width) / 2 * -1);
+    }
+
+    .story-background::after {
+	background-image: linear-gradient(var(--mm-02), var(--mm-02)), linear-gradient(45deg, var(--mm-02) 0%, var(--mm-02) 69%, var(--mm-02c) 70%, var(--mm-02c) 100%);
+	bottom: calc(var(--corner-width) / 2 * -1);
+	left: calc(var(--corner-width) / 2 * -1);
+    }
+
+    .story-background::before {
+	background-image: linear-gradient(var(--mm-02), var(--mm-02)), linear-gradient(315deg, var(--mm-02) 0%, var(--mm-02) 69%, var(--mm-02c) 70%, var(--mm-02c) 100%);
+	bottom: calc(var(--corner-width) / 2 * -1);
+	right: calc(var(--corner-width) / 2 * -1);
+    }
+
+.story {
+	overflow: auto;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 550px;
+	max-width: 100%;
+	height: 550px;
+	max-height: 95%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-top: 0.5em;
+}
+
+.story .hidden{ display: none; }
+
+.story p {
+	text-align: justify;
+	color: #eecdc7;
+}
+
+.content-right {
+	float: right;
+	width: 560px;
+	height: 900px;
+	border-left: 2px solid var(--border-color);
+}
+
+.content-pic {
+	width: 560px;
+	height: 900px;
+	background-image: url('../images/Ceilidh.png');
+}

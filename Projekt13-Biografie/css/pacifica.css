@@ -23,7 +23,7 @@ a {
 .content-pic {
 	width: 950px;
 	height: 400px;
-	background-image: url('../Bilder/Content.png');
+	background-image: url('../images/Content.png');
 	background-color: #203321;
 	border-radius: 20px 20px 20px 20px;
 	margin-top: 2em;
@@ -138,7 +138,7 @@ a {
 .menue-pic {
 	width: 300px; 
 	height: 200px;
-	background-image: url('../Bilder/Menue-Pic.png');
+	background-image: url('../images/Menue-Pic.png');
 	border-bottom: 2px dashed #203321;
 	border-radius: 100%;
 	margin-top: 5em;

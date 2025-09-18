@@ -1,0 +1,124 @@
+body {
+	background-color: #99BDAB;
+}
+
+.content-main {
+	width: 1200;
+	height: auto;
+}
+
+.content-menue {
+	width: 1185px;
+	height: 25px;
+}
+
+#main-menue {
+	float: left;
+	width: 230px;
+	height: 25px;
+	background-color: #f5f5a7;
+	border: 2px solid #a5a587;
+	border-radius: 30px 30px 0 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+#menue {
+	color: #53655c;
+	font-family: ;
+	font-size: ;
+	padding: 3px;
+}
+
+.selected > #main-menue {text-shadow: 1px 1px 2px #333;}
+
+.content-pic {
+	width: 1185px;
+	height: 672px;
+	background-image: url('../images/Content-Pic.gif');
+	/*background-image: url('../Einzelteile/Content-Pic.png');*/
+}
+
+.content-unter {
+	width: 1090px;
+	height: 700px;
+	margin-top: -7.6em;
+}
+
+.content-story {
+	float: left;
+	width: 300px;
+	height: 700px;
+}
+	
+.pic-box-main {
+	float: right;
+	width: 280px;
+	height: 300px;
+	background: rgba(252,255,134, .6);
+	border: 2px solid #919e69;
+	border-radius: 30px;
+}
+
+.pic {
+	width: 250px;
+	height: 280px;
+	background-image: url('../images/Pic.png');
+	clip-path: polygon(0% 15%,11% 10%,15% 0%,85% 0%,90% 11%,100% 15%,100% 85%,89% 89%,85% 100%,15% 100%,11% 90%,0% 85%);
+	border: 2px solid #919e69;
+	margin-top: 0.7em;
+}
+	
+#pic-box-main {
+	float: right;
+	width: 290px;
+	height: 355px;
+	background: rgba(252,255,134, .6);
+	border: 2px solid #919e69;
+	border-radius: 30px;
+	margin-top: 20em;
+	margin-right: -18em;
+}
+
+#pic-box-main h1 {
+	color: 4f6459;
+	font-size: 18px;
+}
+
+.content-right {
+	float: right;
+	width: 750px;
+	height: 700px;
+}
+
+.story-box-main {
+	width: 750px;
+	height: 680px;
+	background: rgba(252,255,134, .6);
+	border: 2px solid #919e69;
+	border-radius: 30px;
+	margin-left: -2em;
+	
+}
+
+.story {
+	overflow: auto;
+	position: relative;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 750px;
+	max-width: 100%;
+	height: 680px;
+	max-height: 90%;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-top: 1.5em;
+}
+
+.story .hidden{ display: none; }
+
+.story p {
+	text-align: justify;
+	color: 4f6459;
+}

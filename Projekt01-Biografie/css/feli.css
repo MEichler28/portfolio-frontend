@@ -34,7 +34,7 @@ body {
 .content-pic {
 	width: 858px;
 	height: 443px;
-	background-image: url('../Bilder/Content.png');
+	background-image: url('../images/Content.png');
 }
 
 .content-story-main {
@@ -94,7 +94,7 @@ a {
 	width: 163px;
 	height: 140px;
 	position: absolute;
-	background-image: url('../Bilder/Feli.png');
+	background-image: url('../images/Feli.png');
 	border: 1px solid #7ea6d1;
 	border-radius: 15%;
 	margin-top: 2em;

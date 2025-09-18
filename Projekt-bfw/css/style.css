@@ -1,0 +1,516 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #eee;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+/*----------------------------------Hauptseite------------------------------------------------*/
+.layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0; /* etwas Luft oben und unten */
+}
+
+.logo-container img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1c1c1c;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 300px;  /* Mindesthöhe, flexibel nach oben */
+    /* Höhe wird automatisch nach Inhalt */
+    max-height: 90vh;   /* Optional: Maximalhöhe */
+    overflow-y: auto;  /* Scrollen, falls zu groß */
+}
+
+.button-anmelde {
+    margin-top: 0.8em;
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    background-color: #c62828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid #c62828;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button-anmelde:hover {
+    background-color: #a32020;
+    border-color: #a32020;
+}
+
+
+.sidebar h2 {
+    font-size: 20px;
+    color: #eee;
+}
+
+.filterbar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button-neu {
+    margin-top: auto;
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    background-color: #c62828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid #c62828;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button-neu:hover {
+    background-color: #a32020;
+    border-color: #a32020;
+}
+
+.button-loeschen {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 4px 8px;
+  background-color: #c0392b;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+.button-loeschen:hover {
+  background-color: #e74c3c;
+  text-decoration: none;
+}
+
+
+.content header h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #eee;
+}
+
+.marke {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #eee;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    background-color: #a32020;
+    border-radius: 30px;
+    width: auto;
+}
+
+/*.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}*/
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+
+
+
+.item {
+    background-color: #1c1c1c;
+    border: 2px solid #444;
+    padding: 10px;
+    text-align: center;
+    color: #eee;
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    border-color: #c62828;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    max-width: 160px;
+    max-height: 160px;
+    object-fit: contain;
+    margin: 0 auto 10px;
+    display: block;
+    border-radius: 8px;
+}
+
+
+
+.item:hover img {
+    transform: scale(1.8);
+    z-index: 10;
+    position: relative;
+}
+
+.item h3 {
+    margin: 5px 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.item .kdatum,
+.item .preis,
+.item .zustand {
+    font-size: 0.9em;
+    color: #ccc;
+    margin: 2px 0;
+}
+
+@media (max-width: 768px) {
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        align-items: center;
+        text-align: center;
+    }
+
+    .button-neu {
+        width: 100%;
+    }
+
+    .button-anmelde {
+        width: 100%;
+    }
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    margin: 0 5px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#pagination button.active {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .form, .vorschau {
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d4edda; /* hellgrün */
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 20px 30px;
+  z-index: 1000;
+  display: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.popup-content {
+  font-size: 14px;
+  color: #333;
+}
+
+.close-btn {
+  float: right;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
+/* Animation: kurz sichtbar, dann ausblenden */
+@keyframes slideFadeOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+#flache-liste {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 3 oder 4 Spalten je nach Breite */
+  gap: 15px; /* Abstand zwischen den Items */
+  margin-top: 20px; /* Optional: Abstand oben */
+}
+
+
+#flache-liste .item {
+  width: auto;       /* nicht 100% */
+  max-width: 100%;   /* keine Überbreite */
+  box-sizing: border-box;
+}
+
+
+
+/*----------------------------------Hinzufügen------------------------------------------------*/
+
+.button-zurueck {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 15px;
+    background-color: #c62828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #444;
+    min-width: 300px;
+}
+
+.form input,
+.form select {
+    padding: 10px;
+    background-color: #222;
+    color: #eee;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#hinzufuegen {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #c62828;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#hinzufuegen:hover {
+    background-color: #a32020;
+}
+
+.vorschau {
+    background-color: #1c1c1c;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+    color: #eee;
+}
+
+.vorschau h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.vorschau p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+img#v-bild {
+    border: 1px solid #555;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/*----------------------------------Registratur------------------------------------------------*/
+
+.registration-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* optional, zentriert Inhalt */
+}
+
+
+.registration {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #1c1c1c;
+    border: 1px solid #444;
+    padding: 30px 25px;
+    border-radius: 10px;
+    color: #eee;
+    font-family: Arial, sans-serif;
+}
+
+.registration h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #c62828;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.registration label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.registration input[type="text"],
+.registration input[type="password"],
+.registration input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #222;
+    border: 1px solid #555;
+    border-radius: 6px;
+    color: #eee;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.registration input[type="text"]:focus,
+.registration input[type="password"]:focus,
+.registration input[type="email"]:focus {
+    outline: none;
+    border-color: #c62828;
+}
+
+.registration button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #c62828;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registration button[type="submit"]:hover {
+    background-color: #a32020;
+}
+
+.button {
+  background-color: #c62828;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+/* Zweispaltiges flexibles Formular-Layout */
+.registration form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.registration .form-group {
+    flex: 1 1 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Volle Breite für große Felder (z. B. Passwort, Button) */
+.registration .form-full {
+    flex: 1 1 100%;
+}
+
+/* Mobil: einspaltig */
+@media (max-width: 600px) {
+    .registration .form-group,
+    .registration .form-full {
+        flex: 1 1 100%;
+    }
+}

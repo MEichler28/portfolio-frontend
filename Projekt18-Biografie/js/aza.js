@@ -1,0 +1,308 @@
+
+function button1() {
+if(document.getElementById('text1').style.display=='none') {
+  document.getElementById('text1').style.display='block';
+  document.getElementById('text2').style.display='none';
+  document.getElementById('text3').style.display='none';
+ document.getElementById('text4').style.display='none';
+  document.getElementById('text5').style.display='none';
+  document.getElementById('text6').style.display='none';
+ document.getElementById('text7').style.display='none';
+  document.getElementById('text8').style.display='none';
+  document.getElementById('text9').style.display='none';
+ document.getElementById('text10').style.display='none';
+  document.getElementById('text11').style.display='none';
+  document.getElementById('text12').style.display='none';
+ document.getElementById('text13').style.display='none';
+  document.getElementById('text14').style.display='none';
+  document.getElementById('text15').style.display='none';
+ document.getElementById('text16').style.display='none';
+  document.getElementById('text17').style.display='none';
+  document.getElementById('text18').style.display='none';
+ document.getElementById('text19').style.display='none';
+  document.getElementById('text20').style.display='none';
+  document.getElementById('text21').style.display='none';
+ document.getElementById('text22').style.display='none';
+  document.getElementById('text23').style.display='none';
+  document.getElementById('text24').style.display='none';
+ document.getElementById('text25').style.display='none';
+  document.getElementById('text26').style.display='none';
+  document.getElementById('text27').style.display='none';
+ document.getElementById('text28').style.display='none';
+  document.getElementById('text29').style.display='none';
+ 
+}
+}
+function button2() {
+if(document.getElementById('text2').style.display=='none') {
+  document.getElementById('text1').style.display='none';
+  document.getElementById('text2').style.display='block';
+  document.getElementById('text3').style.display='none';
+ document.getElementById('text4').style.display='none';
+document.getElementById('text5').style.display='none';
+  document.getElementById('text6').style.display='none';
+ document.getElementById('text7').style.display='none';
+  document.getElementById('text8').style.display='none';
+  document.getElementById('text9').style.display='none';
+ document.getElementById('text10').style.display='none';
+  document.getElementById('text11').style.display='none';
+  document.getElementById('text12').style.display='none';
+ document.getElementById('text13').style.display='none';
+  document.getElementById('text14').style.display='none';
+  document.getElementById('text15').style.display='none';
+ document.getElementById('text16').style.display='none';
+  document.getElementById('text17').style.display='none';
+  document.getElementById('text18').style.display='none';
+ document.getElementById('text19').style.display='none';
+  document.getElementById('text20').style.display='none';
+  document.getElementById('text21').style.display='none';
+ document.getElementById('text22').style.display='none';
+  document.getElementById('text23').style.display='none';
+  document.getElementById('text24').style.display='none';
+ document.getElementById('text25').style.display='none';
+  document.getElementById('text26').style.display='none';
+  document.getElementById('text27').style.display='none';
+ document.getElementById('text28').style.display='none';
+  document.getElementById('text29').style.display='none';
+
+}
+}
+function button3() {
+if(document.getElementById('text3').style.display=='none') {
+  document.getElementById('text1').style.display='none';
+  document.getElementById('text2').style.display='none';
+  document.getElementById('text3').style.display='block';
+ document.getElementById('text4').style.display='none';
+document.getElementById('text5').style.display='none';
+  document.getElementById('text6').style.display='none';
+ document.getElementById('text7').style.display='none';
+  document.getElementById('text8').style.display='none';
+  document.getElementById('text9').style.display='none';
+ document.getElementById('text10').style.display='none';
+  document.getElementById('text11').style.display='none';
+  document.getElementById('text12').style.display='none';
+ document.getElementById('text13').style.display='none';
+  document.getElementById('text14').style.display='none';
+  document.getElementById('text15').style.display='none';
+ document.getElementById('text16').style.display='none';
+  document.getElementById('text17').style.display='none';
+  document.getElementById('text18').style.display='none';
+ document.getElementById('text19').style.display='none';
+  document.getElementById('text20').style.display='none';
+  document.getElementById('text21').style.display='none';
+ document.getElementById('text22').style.display='none';
+  document.getElementById('text23').style.display='none';
+  document.getElementById('text24').style.display='none';
+ document.getElementById('text25').style.display='none';
+  document.getElementById('text26').style.display='none';
+  document.getElementById('text27').style.display='none';
+ document.getElementById('text28').style.display='none';
+  document.getElementById('text29').style.display='none';
+}
+}
+function button4() {
+if(document.getElementById('text4').style.display=='none') {
+  document.getElementById('text1').style.display='none';
+  document.getElementById('text2').style.display='none';
+  document.getElementById('text4').style.display='block';
+ document.getElementById('text3').style.display='none';
+document.getElementById('text5').style.display='none';
+  document.getElementById('text6').style.display='none';
+ document.getElementById('text7').style.display='none';
+  document.getElementById('text8').style.display='none';
+  document.getElementById('text9').style.display='none';
+ document.getElementById('text10').style.display='none';
+  document.getElementById('text11').style.display='none';
+  document.getElementById('text12').style.display='none';
+ document.getElementById('text13').style.display='none';
+  document.getElementById('text14').style.display='none';
+  document.getElementById('text15').style.display='none';
+ document.getElementById('text16').style.display='none';
+  document.getElementById('text17').style.display='none';
+  document.getElementById('text18').style.display='none';
+ document.getElementById('text19').style.display='none';
+  document.getElementById('text20').style.display='none';
+  document.getElementById('text21').style.display='none';
+ document.getElementById('text22').style.display='none';
+  document.getElementById('text23').style.display='none';
+  document.getElementById('text24').style.display='none';
+ document.getElementById('text25').style.display='none';
+  document.getElementById('text26').style.display='none';
+  document.getElementById('text27').style.display='none';
+ document.getElementById('text28').style.display='none';
+  document.getElementById('text29').style.display='none';
+}
+}
+function button5() {
+if(document.getElementById('text5').style.display=='none') {
+  document.getElementById('text1').style.display='none';
+  document.getElementById('text2').style.display='none';
+  document.getElementById('text5').style.display='block';
+ document.getElementById('text3').style.display='none';
+ document.getElementById('text4').style.display='none';
+  document.getElementById('text6').style.display='none';
+ document.getElementById('text7').style.display='none';
+  document.getElementById('text8').style.display='none';
+  document.getElementById('text9').style.display='none';
+ document.getElementById('text10').style.display='none';
+  document.getElementById('text11').style.display='none';
+  document.getElementById('text12').style.display='none';
+ document.getElementById('text13').style.display='none';
+  document.getElementById('text14').style.display='none';
+  document.getElementById('text15').style.display='none';
+ document.getElementById('text16').style.display='none';
+  document.getElementById('text17').style.display='none';
+  document.getElementById('text18').style.display='none';
+ document.getElementById('text19').style.display='none';
+  document.getElementById('text20').style.display='none';
+  document.getElementById('text21').style.display='none';
+ document.getElementById('text22').style.display='none';
+  document.getElementById('text23').style.display='none';
+  document.getElementById('text24').style.display='none';
+ document.getElementById('text25').style.display='none';
+  document.getElementById('text26').style.display='none';
+  document.getElementById('text27').style.display='none';
+ document.getElementById('text28').style.display='none';
+  document.getElementById('text29').style.display='none';
+}
+}
+
+function button6() {
+if(document.getElementById('text6').style.display=='none') {
+  document.getElementById('text1').style.display='none';
+  document.getElementById('text2').style.display='none';
+  document.getElementById('text6').style.display='block';
+  document.getElementById('text3').style.display='none';
+ document.getElementById('text4').style.display='none';
+  document.getElementById('text5').style.display='none';
+ document.getElementById('text7').style.display='none';
+  document.getElementById('text8').style.display='none';
+  document.getElementById('text9').style.display='none';
+ document.getElementById('text10').style.display='none';
+  document.getElementById('text11').style.display='none';
+  document.getElementById('text12').style.display='none';
+ document.getElementById('text13').style.display='none';
+  document.getElementById('text14').style.display='none';
+  document.getElementById('text15').style.display='none';
+ document.getElementById('text16').style.display='none';
+  document.getElementById('text17').style.display='none';
+  document.getElementById('text18').style.display='none';
+ document.getElementById('text19').style.display='none';
+  document.getElementById('text20').style.display='none';
+  document.getElementById('text21').style.display='none';
+ document.getElementById('text22').style.display='none';
+  document.getElementById('text23').style.display='none';
+  document.getElementById('text24').style.display='none';
+ document.getElementById('text25').style.display='none';
+  document.getElementById('text26').style.display='none';
+  document.getElementById('text27').style.display='none';
+ document.getElementById('text28').style.display='none';
+  document.getElementById('text29').style.display='none';
+ 
+}
+}
+
+function button7() {
+if(document.getElementById('text7').style.display=='none') {
+  document.getElementById('text1').style.display='none';
+  document.getElementById('text2').style.display='none';
+ document.getElementById('text7').style.display='block';
+  document.getElementById('text3').style.display='none';
+ document.getElementById('text4').style.display='none';
+  document.getElementById('text5').style.display='none';
+  document.getElementById('text6').style.display='none';
+  document.getElementById('text8').style.display='none';
+  document.getElementById('text9').style.display='none';
+ document.getElementById('text10').style.display='none';
+  document.getElementById('text11').style.display='none';
+  document.getElementById('text12').style.display='none';
+ document.getElementById('text13').style.display='none';
+  document.getElementById('text14').style.display='none';
+  document.getElementById('text15').style.display='none';
+ document.getElementById('text16').style.display='none';
+  document.getElementById('text17').style.display='none';
+  document.getElementById('text18').style.display='none';
+ document.getElementById('text19').style.display='none';
+  document.getElementById('text20').style.display='none';
+  document.getElementById('text21').style.display='none';
+ document.getElementById('text22').style.display='none';
+  document.getElementById('text23').style.display='none';
+  document.getElementById('text24').style.display='none';
+ document.getElementById('text25').style.display='none';
+  document.getElementById('text26').style.display='none';
+  document.getElementById('text27').style.display='none';
+ document.getElementById('text28').style.display='none';
+  document.getElementById('text29').style.display='none';
+ 
+}
+}
+
+function button8() {
+if(document.getElementById('text8').style.display=='none') {
+  document.getElementById('text1').style.display='none';
+  document.getElementById('text2').style.display='none';
+  document.getElementById('text8').style.display='block';
+  document.getElementById('text3').style.display='none';
+ document.getElementById('text4').style.display='none';
+  document.getElementById('text5').style.display='none';
+  document.getElementById('text6').style.display='none';
+ document.getElementById('text7').style.display='none';
+  document.getElementById('text9').style.display='none';
+ document.getElementById('text10').style.display='none';
+  document.getElementById('text11').style.display='none';
+  document.getElementById('text12').style.display='none';
+ document.getElementById('text13').style.display='none';
+  document.getElementById('text14').style.display='none';
+  document.getElementById('text15').style.display='none';
+ document.getElementById('text16').style.display='none';
+  document.getElementById('text17').style.display='none';
+  document.getElementById('text18').style.display='none';
+ document.getElementById('text19').style.display='none';
+  document.getElementById('text20').style.display='none';
+  document.getElementById('text21').style.display='none';
+ document.getElementById('text22').style.display='none';
+  document.getElementById('text23').style.display='none';
+  document.getElementById('text24').style.display='none';
+ document.getElementById('text25').style.display='none';
+  document.getElementById('text26').style.display='none';
+  document.getElementById('text27').style.display='none';
+ document.getElementById('text28').style.display='none';
+  document.getElementById('text29').style.display='none';
+ 
+}
+}
+
+function button9() {
+if(document.getElementById('text9').style.display=='none') {
+  document.getElementById('text1').style.display='none';
+  document.getElementById('text2').style.display='none';
+  document.getElementById('text9').style.display='block';
+  document.getElementById('text3').style.display='none';
+ document.getElementById('text4').style.display='none';
+  document.getElementById('text5').style.display='none';
+ document.getElementById('text6').style.display='none';
+  document.getElementById('text7').style.display='none';
+  document.getElementById('text8').style.display='none';
+ document.getElementById('text10').style.display='none';
+  document.getElementById('text11').style.display='none';
+  document.getElementById('text12').style.display='none';
+ document.getElementById('text13').style.display='none';
+  document.getElementById('text14').style.display='none';
+  document.getElementById('text15').style.display='none';
+ document.getElementById('text16').style.display='none';
+  document.getElementById('text17').style.display='none';
+  document.getElementById('text18').style.display='none';
+ document.getElementById('text19').style.display='none';
+  document.getElementById('text20').style.display='none';
+  document.getElementById('text21').style.display='none';
+ document.getElementById('text22').style.display='none';
+  document.getElementById('text23').style.display='none';
+  document.getElementById('text24').style.display='none';
+ document.getElementById('text25').style.display='none';
+  document.getElementById('text26').style.display='none';
+  document.getElementById('text27').style.display='none';
+ document.getElementById('text28').style.display='none';
+  document.getElementById('text29').style.display='none';
+ 
+}
+}

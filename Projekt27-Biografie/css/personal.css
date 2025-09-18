@@ -1,0 +1,137 @@
+body {
+	}
+
+@-moz-document url-prefix () {
+	a {
+		margin: 10em;
+	}
+}
+
+.activater:hover {
+		cursor: pointer;
+		color: #7a1d17;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	
+	
+	.activater{
+	cursor: pointer;
+	color: #7a1d17;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-weight: 500x;
+	}
+	
+	.activater:before{
+	cursor: pointer;
+	font-family: 'entypo-selected';
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 15px;
+	margin-right: 4px;
+	text-align: center;
+	opacity: 0.7;
+	line-height: 16px;
+	text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+	
+	}
+	
+	.darkener {
+		position: fixed;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		overflow: hidden;
+		
+		z-index: 19999;
+		display: none;
+		margin-top: -13em;
+	}
+	
+	
+	.text_container {
+		position: absolute;
+		display: none;
+		width: 500px;
+		height: 300px;
+		z-index: 19999;		
+		
+		top: 40%;
+		left: 50%;
+		margin-top: 0.9em;
+		margin-left: 3.4em;
+			
+		border: 1px solid #000;
+		border-radius: 40px 40px 40px 40px;
+		background-color: #a99a72;
+		overflow: auto;
+	}
+	
+.personal{
+	overflow: auto;
+	position: relative;
+	padding: 10px;
+	background: rgba(169,154,114, .7); 
+	margin: 10px;
+	width:  500px;
+	max-width: 90%;
+	height: 280px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-left: 1.5em;
+}
+
+.personal.hidden{ display: none; }
+
+.personal h4 {
+	color: #7a1d17;
+	text-align: left; 
+	line-height:70%;
+	font-family: Julee; 
+	font-size: 20px; 
+	letter-spacing: -1px; 
+	word-spacing:2; 
+	text-decoration: underline;
+}
+
+.name { 
+	width: 400px;
+	height: 30px;
+	background: rgba(122,29,23, .3); 
+	margin-left: -5em;
+	margin-top: 0.5em;
+}
+
+.name p {
+	font-size: 20px;
+	font-family: Julee;
+	color: #4e4337;
+	text-align: center;
+	letter-spacing: 5px;
+	font-weight: bold;
+	text-transform: capitalize;
+	vertical-align: middle;
+	padding-top: 2px;
+}
+
+.personals-pic { 
+	width: 140px;
+	height: 119px;
+	margin-right: 30em;
+	margin-left: 0em;
+	margin-top: 1.5em;
+}
+
+.personals-script { 
+	width: 200px;
+	height: 125px;
+	max-height: 200px;
+	line-height: 18px;
+	color: #4e4337;
+	font-size: 11px;
+	text-align: left;
+	margin-left: 9em;
+	margin-top: -10.3em;
+}

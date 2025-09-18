@@ -65,7 +65,7 @@ hr.style-nav{
 .content-pic {
 	width: 535px;
 	height: 600px;
-	background-image: url('../Bilder/Header.png');
+	background-image: url('../images/Header.png');
 	float: left;
 }
 
@@ -136,7 +136,7 @@ hr.style-nav{
   }
 
 .pic {
-	background-image: url('../Bilder/Menue.png');
+	background-image: url('../images/Menue.png');
 	width: 230px;
 	height: 150px;
 	border-left: 5px solid #74c2ce;
@@ -166,7 +166,7 @@ hr.style-nav{
 .fact-pic{
 	width: 350px;
 	height: 200px;
-	background-image: url('../Bilder/Facts.png');
+	background-image: url('../images/Facts.png');
 	border-left: 5px solid #74c2ce;
 	margin-top: 1.5em;
 }
@@ -174,7 +174,7 @@ hr.style-nav{
 #fact-pic{
 	width: 350px;
 	height: 200px;
-	background-image: url('../Bilder/Facts_01.png');
+	background-image: url('../images/Facts_01.png');
 	border-left: 5px solid #74c2ce;
 	margin-top: 1.5em;
 }
@@ -199,7 +199,7 @@ hr.style-nav{
 	float: left;
 	width: 150px;
 	height: 150px;
-	background-image: url('../Bilder/minipic.png');
+	background-image: url('../images/minipic.png');
 	border-top: 1px solid #74c2ce;
 	border-left: 5px solid #74c2ce;
 	border-right: 1px solid #74c2ce;
@@ -210,7 +210,7 @@ hr.style-nav{
 	float: right;
 	width: 150px;
 	height: 150px;
-	background-image: url('../Bilder/minipic1.png');
+	background-image: url('../images/minipic1.png');
 	border-top: 1px solid #74c2ce;
 	border-left: 5px solid #74c2ce;
 	border-right: 1px solid #74c2ce;

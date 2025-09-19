@@ -34,6 +34,9 @@ Die Oberfläche stellt die Sneaker in einer markenbasierten Galerie dar. Filter-
 
 ## Screenshots
 ![Screenshot](images/screenshot.png) 
+*Desktop-Ansicht*
+![Screenshot](images/screenshotmobile.png) 
+*Mobile-Ansicht*
 
 ## Hinweis
 Da es sich um ein Gruppenprojekt handelt, sind nicht alle Bestandteile von mir erstellt. Mein Schwerpunkt lag auf dem **Frontend (HTML, CSS, JavaScript)** sowie der **Integration** und dem **Bugfixing in vorhandenen PHP-/SQL-Komponenten**.

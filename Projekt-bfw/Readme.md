@@ -1,7 +1,7 @@
 # Sneaker-Fetischist – Web-App (Frontend)
 
 **Live-Demo:** https://sneakerfetischist.crow-pics.de  
-Webanwendung zur Darstellung und Verwaltung einer Sneaker-Sammlung mit Login/Registrierung, Filter- und Suchfunktionen sowie Marken-Galerien.
+Webanwendung zur Darstellung und Verwaltung einer Sneaker-Sammlung: Login/Registrierung, Filter- und Suchfunktionen, Marken-Galerien sowie ein Formular zum Hinzufügen neuer Sneaker.
 
 ## Features (Frontend)
 - **Login & Registrierung** (Formulare, Validierung auf Client-/Server-Seite)

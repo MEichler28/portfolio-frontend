@@ -34,8 +34,8 @@ Die Oberfläche stellt die Sneaker in einer markenbasierten Galerie dar. Filter-
 
 ## Screenshots
 <p float="left" align="center">
-  <img src="images/screenshot.png" alt="Desktop-Ansicht" width="45%"/>
-  <img src="images/screenshotmobile.png" alt="Mobile-Ansicht" width="45%"/>
+  <img src="images/screenshot.png" alt="Desktop-Ansicht" height="400"/>
+  <img src="images/screenshotmobile.png" alt="Mobile-Ansicht" height="400"/>
 </p>
 
 ## Hinweis

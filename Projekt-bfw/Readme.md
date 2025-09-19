@@ -33,9 +33,10 @@ Die Oberfläche stellt die Sneaker in einer markenbasierten Galerie dar. Filter-
 - **Lokal (optional):** Projekt in eine lokale PHP-Umgebung legen (z. B. XAMPP/LAMP), `index.php` im Browser öffnen.
 
 ## Screenshots
-<p float="left">
+<p float="left" align="center">
   <img src="images/screenshot.png" alt="Desktop-Ansicht" width="45%"/>
   <img src="images/screenshotmobile.png" alt="Mobile-Ansicht" width="45%"/>
 </p>
+
 ## Hinweis
 Da es sich um ein Gruppenprojekt handelt, sind nicht alle Bestandteile von mir erstellt. Mein Schwerpunkt lag auf dem **Frontend (HTML, CSS, JavaScript)** sowie der **Integration** und dem **Bugfixing in vorhandenen PHP-/SQL-Komponenten**.

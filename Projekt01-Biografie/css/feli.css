@@ -1,103 +1,118 @@
 body {
-	background-color: #273346;
-	color: #7ea6d1;
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    background-color: #273346;
+    color: #7ea6d1;
+    font-size: clamp(16px, 1.2vw + 12px, 18px); line-height: 1.5;
 }
+
+/* Container fluid lassen – hast du schon */
+.page { max-width: 1200px; margin: 0 auto; padding: 1rem; }
 
 .content-main {
-	width: 1626px;
-	height: 1000px;
+    display: grid;
+    /* Deine Spaltenbreiten hier einsetzen */
+    grid-template-columns: 250px 1fr 200px;
+    gap: 0;                 /* <— wichtig */
 }
 
-.content-main-left {
-	float: left;
-	width: 250px;
-	height: 450px;
-	background-color: #367c63;
-	border-left: 2px solid #12cd6b;
-	border-top: 2px solid #12cd6b;
-	border-bottom: 2px solid #12cd6b;
+.content-main-left{
+    background:#367c63;
+    border-left:2px solid #12cd6b;
+    border-top:2px solid #12cd6b;
+    border-bottom:2px solid #12cd6b;
+    padding:12px;
+    height: 450px;
+    width: 250px;
 }
+.content-main-left,
+.content-main-right {
+    max-width: none;
+    max-height: none;
+}
+.content-main-middle{
+    background:#367c63;
+    border:2px solid #12cd6b;
+    padding:0;
+}
+
+.content-main-right{
+    background:#367c63;
+    border-right:2px solid #12cd6b;
+    border-top:2px solid #12cd6b;
+    border-bottom:2px solid #12cd6b;
+    padding:12px;
+    width: 200px;
+    height: 350px;}
+
 
 .content-main-left p {
-	text-align: justify;
-	padding: 10px;
+    text-align: justify;
+    font-size: 12px;
+    padding: 5px;
 }
 
-.content-main-middle {
-	float: left;
-	width: 858px;
-	height: 1000px;
-	background-color: #367c63;
-	border: 2px solid #12cd6b;
-}
+/*.content-pic{*/
+/*    width:100%;*/
+/*    height:443px;*/
+/*    background:url('../images/Content.png') center/cover no-repeat;*/
+/*}*/
 
 .content-pic {
-	width: 858px;
-	height: 443px;
-	background-image: url('../images/Content.png');
+    width: 100%;
+    aspect-ratio: 16 / 7;   /* oder 16/9 – was besser passt */
+    background: url('../images/Content.png') center/cover no-repeat;
 }
 
-.content-story-main {
-	width: 858px;
-	height: 550px;
+.content-story-main{
+    padding:16px;
 }
 
-.story {
-	overflow: auto;
-	position: relative;
-	padding-left: 20px;
-	padding-right: 20px;
-	width: 850px;
-	max-width: 100%;
-	height: 550px;
-	max-height: 95%;
-	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
-	margin-top: 1.5em;
-}
-
-.story.hidden{ display: none; }
-
-.story p {
-	text-align: justify;
-}
-
-.content-main-right {
-	float: right;
-	width: 200px;
-	height: 350px;
-	position: relative;
-	background-color: #367c63;
-	border-right: 2px solid #12cd6b;
-	border-top: 2px solid #12cd6b;
-	border-bottom: 2px solid #12cd6b;
-	margin-right: 19.35em;
-}
-
-a {
-	text-decoration: none;
-	color: #7ea6d1;
-}
-
-#main-menue {
-	width: 150px;
-	height: 20px;
-	background-color: #273346;
-	border: 1px solid #7ea6d1;
-	margin: 5px;
-}
-
-.selected > #main-menue {
-    background: rgba(255, 255, 255, .5);
-  }
+/*.menue-pic{*/
+/*    width:163px;*/
+/*    height:140px;*/
+/*    background:url('../images/Feli.png') center/cover no-repeat;*/
+/*    border:1px solid #7ea6d1;*/
+/*    border-radius:15%;*/
+/*    margin:16px auto 0;*/
+/*}*/
 
 .menue-pic {
-	width: 163px;
-	height: 140px;
-	position: absolute;
-	background-image: url('../images/Feli.png');
-	border: 1px solid #7ea6d1;
-	border-radius: 15%;
-	margin-top: 2em;
-	margin-left: 1em;
-	bottom: 1em;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    aspect-ratio: 163 / 140;
+    background: url('../images/Feli.png') center/cover no-repeat;
+    border: 1px solid #7ea6d1;
+    border-radius: 15%;
+    margin: 16px auto 0;
+}
+
+a{
+    text-decoration:none;
+    color:#7ea6d1;
+}
+
+#main-menue{
+    background:#273346;
+    border:1px solid #7ea6d1;
+    border-radius:.5rem;
+    padding:.6rem .8rem;
+    margin-bottom:.5rem;
+    width:150px;
+}
+
+/* Breakpoints: 2 Spalten ab Tablet, 1 Spalte am Handy */
+@media (max-width: 1024px) {
+    .content-main {
+        grid-template-columns: minmax(200px, 1fr) minmax(0, 1.6fr);
+    }
+    .content-main-right { order: 3; }
+}
+
+@media (max-width: 680px) {
+    .content-main {
+        grid-template-columns: 1fr;
+    }
+    .content-main-left, .content-main-right { order: unset; }
 }

@@ -11,7 +11,6 @@ Im Mittelpunkt steht die klare Strukturierung von Text und Bildern.
 ## Features
 - Nutzung von CSS für Layout und Typografie
 - Eingebundene Bilder im Unterordner `/images`
-- Responsives Grundlayout (Seite passt sich der Fenstergröße an)
 
 ## Vorschau
 ![Screenshot](images/screenshot.png)
